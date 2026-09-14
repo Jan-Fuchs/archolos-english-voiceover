@@ -1,0 +1,151 @@
+wav	instruction
+SVM_3_ABS_CITY.WAV	Slow, dry approval; plain statement of fact, no warmth in the compliment.
+SVM_3_ABS_FARMS.WAV	Unhurried, neutral report; slight lift on 'settled', otherwise flat and matter-of-fact.
+SVM_3_ABS_MONASTERY.WAV	Slow and sober, faintly approving; give 'repented' quiet weight, keep it understated.
+SVM_3_ATTACK_CRIME.WAV	Brisk and hard, disgusted; spit 'thugs' and turn away on the last word.
+SVM_3_AARGH_1.WAV	Short sharp cry of pain, full voice, cut off fast, no drawn-out wail.
+SVM_3_AARGH_2.WAV	Brisk, jolted cry of pain; lower and rougher, clipped hard at the end.
+SVM_3_AARGH_3.WAV	Sudden hit-taken cry, brisk and guttural; short, no theatrics, drops away at once.
+SVM_3_ALARM.WAV	Full-voiced shout, brisk and urgent, meant to carry across the whole yard.
+SVM_3_AWAKE.WAV	Slow and sleep-heavy, low pitch, rousing reluctantly; unhurried, no performance, just waking up.
+SVM_3_CITY_CRIME.WAV	Brisk and hard with threat; land 'Roderich' firmly, no shouting, cold certainty.
+SVM_3_CQ004_ASKBOOR.WAV	Unhurried and plain; small pause before 'but', offhand helpfulness, no particular interest.
+SVM_3_CHEERFRIEND01.WAV	Brisk shout of encouragement from the sidelines, rough and pleased, not cheerful or bright.
+SVM_3_CHEERFRIEND02.WAV	Brisk goading call, rough edge, half a challenge; push hard on 'waiting'.
+SVM_3_CHEERFRIEND03.WAV	Brisk, gruff approval barked across the room; short, blunt, no warmth to spare.
+SVM_3_DONTKNOW_PERSON_ANGRY.WAV	Brisk and irritated, clipped; snap 'leave me alone', then flatten out, done talking.
+SVM_3_DONTKNOW_PERSON_CALM.WAV	Unhurried and flat, mildly indifferent; no apology in it, just a closed door.
+SVM_3_DONTKNOW_TOPIC_ANGRY.WAV	Brisk, annoyed retort; bite on 'damn', rising impatience, cut it short.
+SVM_3_DONTKNOW_TOPIC_CALM.WAV	Slow, flat and unbothered; states it once, no curiosity, no invitation to continue.
+SVM_3_DEAD.WAV	Full-throated death cry, brisk and final; strength drains out, ends abruptly, no drama.
+SVM_3_DIEENEMY.WAV	Brisk and furious mid-swing; hard stress on 'never', full volume, teeth clenched.
+SVM_3_DIEMONSTER.WAV	Brisk and disgusted, raised voice, mid-action; weariness under the anger, spit 'scummy'.
+SVM_3_DIESTUPIDBEAST.WAV	Brisk bark, blunt and territorial; full volume, hammer each word, no hesitation.
+SVM_3_DIRTYTHIEF.WAV	Brisk, outraged shout; hard break between the two, threat in 'wait'.
+SVM_3_ENEMYKILLED.WAV	Slow and cold, almost quiet; trail off at the end, grim satisfaction, no gloating.
+SVM_3_FARMS_CRIME.WAV	Brisk and indignant; pause at the dash, then harden into the threat.
+SVM_3_GREETINGS_FROMFRIEND.WAV	Unhurried, warm but gruff; a working man's greeting, plain, no brightness or lilt.
+SVM_3_GUILDAMBIENT_ARAXOS_LORENZOLOOKING.WAV	Unhurried, dry and offhand; passing on a message he barely cares about.
+SVM_3_GUILDAMBIENT_ARAXOS_WHOYOUARE_V1.WAV	Slow, sceptical half-question; flat rise at the end, faint doubt, sizing him up.
+SVM_3_GUILDAMBIENT_ARAXOS_WHOYOUARE_V2.WAV	Unhurried, mildly surprised query; low pitch, small lift on the name, unconvinced.
+SVM_3_GUILDAMBIENT_MILITIA_LENNARTLOOKING.WAV	Unhurried, matter-of-fact instruction; slight firmness on 'go', nothing urgent about it.
+SVM_3_GUILDAMBIENT_MILITIA_RODERICHLOOKING.WAV	Slow and plain, mild authority; small pause after 'Roderich', no push behind it.
+SVM_3_GUILDAMBIENT_MILITIA_WHOYOUARE_V1.WAV	Slow, doubtful; weigh the title, faint amusement held back, question barely rises.
+SVM_3_GUILDAMBIENT_MILITIA_WHOYOUARE_V2.WAV	Unhurried and dry, testing the words out; low, flat lift on the name.
+SVM_3_GUILDAMBIENT_WHOYOUARE_V1.WAV	Slow, half-disbelieving question; short, low, more thinking aloud than asking him.
+SVM_3_GUILDAMBIENT_WHOYOUARE_V2.WAV	Unhurried, flat curiosity; barely a question, name given a small dry emphasis.
+SVM_3_GUILDAMBIENT_WHOYOUARE_V3.WAV	Slow and dubious, faintly mocking the title; low pitch, minimal rise, unimpressed.
+SVM_3_GETOUTOFHERE.WAV	Brisk, hard command, raised voice; no argument offered, hammer 'out', finished.
+SVM_3_GETOUTOFMYBED.WAV	Brisk and indignant, sleep-rough voice; stress 'my', more outrage than real danger.
+SVM_3_GETUPANDBEGONE.WAV	Brisk after a flat start; pause on 'now', then the order lands hard.
+SVM_3_GODDAMNBUG.WAV	Unhurried, low revulsion; curled lip in the voice, one word, quietly appalled.
+SVM_3_GOODKILL.WAV	Brisk, rough cheer mid-fight; raised voice, mean pleasure, punch 'bastard' hard.
+SVM_3_GOODMONSTERKILL.WAV	Brisk and rattled, already moving away; self-preservation, no shame, volume dropping off.
+SVM_3_GOODVICTORY.WAV	Unhurried, grim approval; flat certainty, no cheer, slight weight on 'deserved'.
+SVM_3_GUARDS.WAV	Brisk, full-volume shout for help; urgent, cracked at the top, carries far.
+SVM_3_HANDSOFF.WAV	Brisk, sharp and territorial; raised voice, disgust on 'paws', immediate warning.
+SVM_3_HELP.WAV	Brisk, loud cry for help; genuine fear breaking through, thrown out at distance.
+SVM_3_IGETYOUSTILL.WAV	Brisk and triumphant mid-action; hard on 'now', closing in, full of menace.
+SVM_3_IMBUSY_ANGRY.WAV	Brisk and irritated; question snaps, then 'get lost' drops flat and final.
+SVM_3_IMBUSY_CALM.WAV	Unhurried, mildly apologetic but closed; even tone, no warmth, no real regret.
+SVM_3_IMBUSY_DRUNK.WAV	Slow and slurred, self-important; words run loose, then 'don't bother' clipped off.
+SVM_3_ISAIDSTOPMAGIC.WAV	Brisk and threatening; sneer the question, then bark the order, volume rising.
+SVM_3_ISAIDWEAPONDOWN.WAV	Brisk, hard second warning; pause after 'said', then each word hammered down.
+SVM_3_ITAKEYOURWEAPON.WAV	Slow and calm, taking his time; quiet authority, no gloating, faintly amused.
+SVM_3_ITOOKYOURGOLD.WAV	Unhurried and dry; small pause after 'well', sour amusement, thoroughly unimpressed.
+SVM_3_KIND_GOODBYE.WAV	Unhurried, plain and friendly enough; low warmth, no brightness, already turning away.
+SVM_3_KILLENEMY.WAV	Brisk, full-volume battle shout; savage on 'skewer', mid-swing, no control left.
+SVM_3_KILLMURDERER.WAV	Brisk and enraged; both words hit hard, righteous fury, full volume, clipped.
+SVM_3_LOOKINGFORTROUBLEAGAIN.WAV	Unhurried and weary-hard; flat delivery, threat under it, barely a question.
+SVM_3_MILGREETINGS.WAV	Unhurried, formal salute; firm and steady, chest voice, duty not enthusiasm.
+SVM_3_MIL_CITY_CRIME.WAV	Unhurried and scornful; the question dry, then cold certainty on the second half.
+SVM_3_MONA_CRIME.WAV	Unhurried and stern, more sorrow than rage; firm weight on 'atone', pause between sentences.
+SVM_3_MONSTERKILLED.WAV	Brisk, raised voice, relief mixed with grim satisfaction; punch 'one', then drop away.
+SVM_3_NOGOLD.WAV	Unhurried and flat, merchant's finality; slight emphasis on 'enough', door closed politely.
+SVM_3_NOGOLD_BRIBE.WAV	Slow and disdainful; flat question, pause, then dry pressure on 'better'.
+SVM_3_NOITEMS.WAV	Unhurried, flat disappointment; no anger, just a plain statement that closes things.
+SVM_3_NOTNOW.WAV	Brisk and sharp, patience gone; raised but not shouted, turns away immediately.
+SVM_3_NEVERENTERROOMAGAIN.WAV	Unhurried and hard; slow warning, deliberate pause before 'got it', flat menace.
+SVM_3_NEVERHITMEAGAIN.WAV	Brisk and angry, still shaken; hammer 'ever', full voice, threat unmistakable.
+SVM_3_NEXTTIMEYOUREINFORIT.WAV	Brisk warning then slower threat; snap 'watch it', then let it settle cold.
+SVM_3_NO.WAV	Slow, flat, absolutely final; one low syllable, no explanation offered or coming.
+SVM_3_NOLEARNNOPOINTS.WAV	Unhurried and even, teacher's dismissal; no unkindness, slight weight on 'more', plainly final.
+SVM_3_NOLEARNOVERPERSONALMAX.WAV	Slow and level, faint regret; states his own limit without embarrassment, unhurried throughout.
+SVM_3_NOLEARNYOUREBETTER.WAV	Unhurried, grudging respect; pause between sentences, dry compliment given flat, no flourish.
+SVM_3_NOTBAD.WAV	Slow, quiet approval; trail off thoughtfully, understated, weight on 'bad', no enthusiasm.
+SVM_3_OHMYGODHESDOWN.WAV	Slow and low, half to himself; unsettled and trailing off, no theatrics.
+SVM_3_OHMYGODITSAFIGHT.WAV	Unhurried, low and appalled; watching from a distance, trails off, quietly fascinated.
+SVM_3_OHMYHEAD.WAV	Slow and pained, thick with hangover; low pitch, words dragging, trailing into nothing.
+SVM_3_OOH01.WAV	Brisk shout from the sidelines, rough and goading; full voice, no refinement.
+SVM_3_OOH02.WAV	Brisk and loud, egging on; stress 'boss', crowd voice, mean enjoyment.
+SVM_3_OOH03.WAV	Brisk, blurted reaction; genuine shock, low and rough, cut off immediately.
+SVM_3_PALGREETINGS.WAV	Unhurried, devout salute; steady and firm, reverence held in, no raised volume.
+SVM_3_Q202_WAITING_V1.WAV	Unhurried and sour; flat question, pause at 'well', resignation with a needling edge.
+SVM_3_Q202_WAITING_V2.WAV	Slow and dry, joking without humour; long-suffering, land 'tent' deadpan, no smile.
+SVM_3_Q202_WAITING_V3.WAV	Unhurried but heating up; grumbling complaint, weight on 'paperwork', exasperation without real shouting.
+SVM_3_Q202_WAITING_V4.WAV	Slow and worn down, then stubborn; let 'until the end' firm up defiantly.
+SVM_3_Q202_WAITING_V5.WAV	Unhurried indignation building; land 'mockery' hard and flat, outraged dignity, no real shout.
+SVM_3_Q202_WAITING_V6.WAV	Unhurried and grim, half serious threat; weight on 'Valley of Mines', hard finish.
+SVM_3_Q202_WAITING_V7.WAV	Slow self-encouragement, low and stubborn; second 'I can do it' firmer, quietly desperate.
+SVM_3_Q206_FINBARBODY_V1.WAV	Unhurried and flat-toned challenge; mild scorn, no heat, weight on 'better'.
+SVM_3_Q206_FINBARBODY_V2.WAV	Slow and slightly defensive; plain excuse, no energy behind it, small pause mid-line.
+SVM_3_Q208_SEARCHYANNICK_ANWSER_01.WAV	Unhurried, thinking it through; small pause after 'middle', vague and unbothered throughout.
+SVM_3_Q208_SEARCHYANNICK_ANWSER_02.WAV	Slow, blank repetition of the name, then flat dismissal; incurious, conversation over.
+SVM_3_Q208_SEARCHYANNICK_ANWSER_03.WAV	Unhurried, mildly reproachful first, then plainly helpful; pause before giving the directions.
+SVM_3_QA306_ARAXOS_WHATSUP_V1.WAV	Unhurried and dry warning; no malice, weight on 'patient', a fact not a threat.
+SVM_3_QA306_ARAXOS_WHATSUP_V2.WAV	Slow and hard, overseer's contempt; clipped first sentence, flat certainty on the second.
+SVM_3_QA306_JOINT_DONTKNOW_V1.WAV	Unhurried and puzzled, then flat; genuine ignorance, no defensiveness, pause between sentences.
+SVM_3_QA306_JOINT_DONTKNOW_V2.WAV	Slow and dry, faintly proud; even stress across the line, no interest in more.
+SVM_3_QA306_JOINT_DONTKNOW_V3.WAV	Unhurried then hardening; flat first sentence, brisk clipped order to leave him.
+SVM_3_QA306_STOPLURKING.WAV	Slow and low, wary; long pause before the last sentence, quiet warning, guarded.
+SVM_3_QA306_WORKERS_WHATSUP_V1.WAV	Unhurried and resigned; flat bitterness, small pause before 'only reason', no self-pity.
+SVM_3_QA306_WORKERS_WHATSUP_V2.WAV	Slow and bitter, listing wearily; even weight on each mine, no heat, worn through.
+SVM_3_QA306_WORKERS_WHATSUP_V3.WAV	Unhurried and hollow; states it plainly, let 'dream' fall flat, no bitterness left.
+SVM_3_REWARD_ANGRY.WAV	Unhurried but hard; grudging on 'take it', then cold warning, no room given.
+SVM_3_REWARD_CALM.WAV	Slow and plain, small warmth; no ceremony, handing it over as simple business.
+SVM_3_RUDE_GOODBYE.WAV	Unhurried and dismissive; flat 'yeah', then the rest thrown away, barely raised.
+SVM_3_RUNAWAY.WAV	Brisk and frightened, mid-flight; voice thinning as he goes, no pride left.
+SVM_3_RUNCOWARD.WAV	Brisk, thrown back over the shoulder while retreating; bluster covering fear, volume raised.
+SVM_3_SHEEPKILLER_CRIME.WAV	Unhurried and witheringly dry; both questions flat, contempt carried by the slowness.
+SVM_3_SQ202_FARMER_ABOUTRASCO.WAV	Unhurried, helpful and plain; small lift on 'Rasco', offhand certainty about the rest.
+SVM_3_SQ202_FARMER_TAKEJOINT_V1.WAV	Slow and loosening, deep satisfaction; trail both halves off, low pitch, unhurried throughout.
+SVM_3_SQ202_FARMER_TAKEJOINT_V2.WAV	Unhurried and easy, mildly pleased; plain courtesy, no salesmanship, small weight on 'pleasure'.
+SVM_3_SQ202_FARMER_TAKEJOINT_V3.WAV	Slow and dryly surprised; backhanded compliment, flat tone, faint weight on 'some'.
+SVM_3_SQ202_FARMER_TAKEJOINT_V4.WAV	Unhurried and easing off; contented flatness, pause between sentences, last line almost muttered.
+SVM_3_SQ311_MILITIAMINER_LEAVEMEV1.WAV	Unhurried but closed; low and tired, no eye contact in the voice.
+SVM_3_SQ311_MILITIAMINER_LEAVEMEV2.WAV	Brisk and curt, patience thin; flat, no apology, already turning back to work.
+SVM_3_SQ311_MILITIAMINER_LEAVEMEV3.WAV	Slow and low, genuinely afraid; glance-over-the-shoulder quality, weight on 'punish', kept quiet.
+SVM_3_SQ311_MILITIAMINER_LEAVEMEV4.WAV	Unhurried and wary; flat suspicion first, then a tired plea, nothing raised.
+SVM_3_SQ416_GOODJOB_01.WAV	Unhurried with a flash of disgust; relief settling in on the second sentence.
+SVM_3_SQ416_GOODJOB_02.WAV	Slow and relieved; weight on 'finally', cautious optimism, no celebration in the voice.
+SVM_3_SQ416_GOODJOB_03.WAV	Unhurried, gruff approval; plain respect, slight lift on 'job', no real excitement.
+SVM_3_SURE_V1.WAV	Unhurried and easy; low, obliging, no effort in it, faint friendliness.
+SVM_3_SURE_V2.WAV	Slow and offhand; two flat words, mild agreement, already moving on.
+SVM_3_SURE_V3.WAV	Unhurried, level and certain; quiet courtesy, no emphasis, nothing to discuss.
+SVM_3_SHEEPATTACKERDOWN.WAV	Brisk and hard, still hot from the fight; hammer 'our', warning finished.
+SVM_3_SHEEPKILLER.WAV	Brisk, raised and protective; blunt farmer's shout, hard on 'sheep', no fear.
+SVM_3_SHEEPKILLERMONSTER.WAV	Brisk and furious shout, mid-action; disgust on 'filthy', driving the beast off.
+SVM_3_SHITNOGOLD.WAV	Unhurried and mocking; false pity up front, then flat contempt, faintly amused.
+SVM_3_SMALLTALK01.WAV	Slow, low murmur mid-conversation; unfinished at both ends, half-heard, no projection.
+SVM_3_SMALLTALK02.WAV	Unhurried and doubtful, murmured; drop into it mid-thought, quiet, weight on 'sure'.
+SVM_3_SMALLTALK03.WAV	Slow, low and knowing; ambient murmur, drifts in and out, no emphasis pushed.
+SVM_3_SMALLTALK04.WAV	Unhurried and troubled, kept low; trails away unfinished, weary, background conversation volume.
+SVM_3_SMALLTALK05.WAV	Slow, low and puzzled; mild exasperation, murmured aside, no projection, unfinished ending.
+SVM_3_SMALLTALK06.WAV	Unhurried and guarded, quiet; weight on 'enough', drops away, half-heard by design.
+SVM_3_SMALLTALK07.WAV	Slow and sly, low volume; hint of knowing more, unfinished, murmured to someone nearby.
+SVM_3_SMALLTALK08.WAV	Unhurried and flat-out refusing, quietly; murmured, firm on 'not', background conversation level.
+SVM_3_SMALLTALK09.WAV	Slow, low and cautioning; dry wisdom passed along quietly, trailing off unfinished.
+SVM_3_SMALLTALK10.WAV	Unhurried and defensive but quiet; murmured denial, weight on 'me', no projection.
+SVM_3_SMALLTALK11.WAV	Slow and knowing, low; flat satisfaction, murmured mid-conversation, unfinished at both ends.
+SVM_3_SMALLTALK12.WAV	Unhurried and sour, kept quiet; self-pity held down, murmured, drifting off unfinished.
+SVM_3_SMALLTALK13.WAV	Slow and low with real regret; quiet weight on 'deserve', murmured, no projection.
+SVM_3_SMALLTALK14.WAV	Unhurried and dryly incredulous, still quiet; murmured, flat, unfinished at both ends.
+SVM_3_SMALLTALK15.WAV	Slow, low and dismissive; flat murmur, no emphasis, kept at background level.
+SVM_3_SMALLTALK16.WAV	Unhurried and mildly suspicious, quiet; murmured question, barely rises, trails off unfinished.
+SVM_3_SMALLTALK17.WAV	Slow, low and grim; quiet certainty, weight on 'forever', murmured, no projection.
+SVM_3_SMALLTALK18.WAV	Unhurried and stubborn, kept quiet; murmured, firm on 'own', unfinished at both ends.
+SVM_3_SMALLTALK19.WAV	Slow, low agreement; flat and unremarkable, murmured mid-conversation, drifting off at the end.
+SVM_3_SMALLTALK20.WAV	Unhurried and resigned, quiet; flat pessimism, murmured, no emphasis, trailing away unfinished.
+SVM_3_SMALLTALK21.WAV	Slow and low, mildly surprised; murmured aside, weight on 'first', background conversation level.
+SVM_3_SMALLTALK22.WAV	Unhurried and resigned, quiet; murmured, even and flat, trailing off without conclusion.
+SVM_3_SMALLTALK23.WAV	Slow, low and knowing; quiet vindication, murmured, weight on 'knew', unfinished ending.

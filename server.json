@@ -1,0 +1,52 @@
+{
+  "host": "127.0.0.1",
+  "port": 8080,
+  "backend": "cuda",
+  "device": 0,
+  "lazy_load": true,
+  "max_loaded_models": 1,
+  "models": [
+    {
+      "id": "breeze",
+      "family": "breeze_tts",
+      "path": "models/Breeze-TTS-2-GGUF/breeze-tts-2-q8_0.gguf",
+      "task": "tts",
+      "mode": "offline"
+    },
+    {
+      "id": "higgs",
+      "family": "higgs_audio_tts",
+      "path": "models/Higgs-Audio-v3-TTS-4B-GGUF/higgs-audio-v3-tts-4b-q8_0.gguf",
+      "task": "tts",
+      "mode": "offline"
+    },
+    {
+      "id": "qwen3-asr",
+      "family": "qwen3_asr",
+      "path": "models/Qwen3-ASR-1.7B-GGUF/qwen3-asr-1.7b-q8_0.gguf",
+      "task": "asr",
+      "mode": "offline"
+    },
+    {
+      "id": "cosyvoice3",
+      "family": "cosyvoice3",
+      "path": "models/CosyVoice3-GGUF/cosyvoice3-q8_0.gguf",
+      "task": "tts",
+      "mode": "offline"
+    },
+    {
+      "id": "qwen3-tts",
+      "family": "qwen3_tts",
+      "path": "models/Qwen3-TTS-12Hz-1.7B-Base-GGUF/qwen3-tts-12hz-1.7b-base-q8_0_v2.gguf",
+      "task": "tts",
+      "mode": "offline"
+    },
+    {
+      "id": "qwen3-tts-design",
+      "family": "qwen3_tts",
+      "path": "models/Qwen3-TTS-12Hz-1.7B-VoiceDesign-GGUF/qwen3-tts-12hz-1.7b-voicedesign-q8_0.gguf",
+      "task": "vdes",
+      "mode": "offline"
+    }
+  ]
+}

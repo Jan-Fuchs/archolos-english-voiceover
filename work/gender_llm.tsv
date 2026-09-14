@@ -1,0 +1,611 @@
+speaker	gender	reason
+RODERICH	man	male name
+LORENZO	man	male name
+KESSEL	man	male name
+RIORDIAN	man	male name
+GRAYSON	man	male name
+CORTEZ	man	male name
+KURT	man	male name
+IVY	woman	female name
+ADELARD	man	male name
+CARAMON	man	male name
+WEGAR	man	male name
+OLAF	woman	script VLK_3018_OLAF (was man: male name)
+FABIO	man	male name
+TENGRAL	man	male name
+ARWID	man	male name
+JORN	man	male name
+LUTZ	man	male name
+WINSTAN	man	male name
+ALBYN	man	male name
+VIKTOR	man	male name
+VOLKER	man	male name
+ODGAR	man	male name
+DETLOW	man	male name
+NOTGER	man	male name
+BRADLOCK	man	male name
+BODOWIN	man	male name
+LOKVAR	man	male name
+CANDAC	man	male name, paladin
+GAROS	man	male name
+LENNART	man	male name
+ULRYK	man	male name
+SLAGER	man	male name
+TOMAS	man	male name
+EINAR	man	male name
+OKTAV	man	male name
+BEN	man	male name
+DUSTER	man	male name
+BORIS	woman	script VLK_3023_BORIS (was man: male name)
+MARKUS	man	male name
+BASTIAN	man	male name
+KNUT	man	male name
+LIAM	man	male name
+YEZEGAN	man	male name
+BAES	man	male name
+MARTHA	woman	female name
+SAMBOR	man	male name
+OSCAR	man	male name
+HERSHLIK	man	male name
+TRIMEGISTO	man	male name
+WILLEM	man	male name
+MATEY	man	male name
+THIAGO	man	male name
+EZEKIEL	man	male name
+HUXLAY	man	male name
+OTMAR	man	male name
+CREDNAR	man	male name
+GUMBERT	man	male name
+CAPTAIN	man	generic male role
+HARRY	man	male name
+PROPAGANDIST	man	generic male role
+GONZALO	man	male name
+SIMON	man	male name
+ERNESTO	man	male name
+RUPERT	man	male name
+SALL	man	male name
+DAVIS	man	male name
+PROXIMO	man	male name
+VENZEL	man	male name
+ANA	woman	female name
+HIERRO	man	male name
+RAMHA	woman	no male cue, high pitch
+OSIP	man	male name
+CARDEN	man	male name
+SUNDER	man	referred to as him
+INEXTREMO	man	male agitator
+BERTO	man	male name
+FOLKARD	man	male name
+SALVI	man	male name
+BLAKE	man	male name
+NELSON	man	male name
+RUUD	man	male name
+DIMA	woman	referred to as she
+ARAXOS	man	generic male role
+MORITZ	man	male name
+YANNICK	man	male name
+STONE	man	male name
+ALENA	woman	female name
+DENNIS	man	male name
+HOLDWIG	man	male name
+LEWKO	man	male name
+RIKI	man	male name
+SILVESTR	man	male name
+FREDRIK	woman	script NONE_6252_FREDRIK (was man: male name)
+GARD	man	male name
+RODRIGO	man	male name
+ARNOLD	man	male name
+PABLO	man	male name
+JAVAD	man	male name
+SALZER	man	male name
+MALEN	man	miner, male name
+MORRIS	man	male name
+ANDERAS	man	male name
+KUNO	man	male name
+OSVALD	man	male name
+GERSTAND	man	male name
+KIPPER	man	male name
+OTH	man	male name
+RASCO	man	male name
+KALEB	man	male name
+GASTON	man	male name
+KETH	woman	script VLK_6230_KETH (was man: male name)
+SOREN	woman	script BAU_902_SOREN (was man: male name)
+PRIOR	man	monastery prior, male
+LUDLOF	man	male name
+RAMSEY	man	male name
+GASPAR	woman	script BAU_900_GASPAR (was man: male name)
+NOB	woman	no male cue, high pitch
+HELMUD	man	male name
+LARRY	man	male name
+MAILOR	man	script VLK_6254_MAILOR (was woman: no male cue, high pitch)
+SMUGGLER	man	generic male role
+INGOLF	man	male name
+ZACHARY	man	male name
+GARNEK	man	male nickname
+LAUDUS	man	male name
+LOAFS	man	miner, calls player boy
+TONAN	man	male name
+ALLAN	man	male name
+HUUG	man	male name
+ALFRED	man	male name
+DAN	man	male name
+DOCAN	man	male name
+GRON	man	male name
+HAVARD	man	male name
+VAHRAL	man	male name
+VLADAN	woman	script NONE_922_VLADAN (was man: male name)
+ARS	man	male name
+LEON	man	male name
+FOX	man	male nickname
+KYLE	man	male name
+MILITIA	man	generic male role
+IGNIS	man	male name
+TERRY	man	male name
+THORSTEN	man	male name
+LUDWIG	man	male name
+RIEROL	man	male name, mage
+TIMO	man	male name
+ARETHE	man	guard on night watch, male
+CASPAR	man	male name
+OLIVER	man	male name
+SAUL	man	male name
+BRUNO	man	male name
+GETTER	man	male name
+LEGRIF	man	male name
+VEIT	man	male name
+WORKER	man	generic male role
+ARMAR	man	male name
+BALUEN	man	male name
+BEINARD	man	male name
+HAROLD	man	male name
+KOBUS	man	male name
+VEIGO	man	male name
+HERDIS	woman	female name
+KARIN	woman	female name
+KAZEEM	man	male name
+RENEGADE	man	generic male role
+TESPI	man	city guard member
+PROPAGANDIST02	man	generic male role
+REFIR	man	male name
+DALMON	man	male name
+EURIC	man	male name
+GHOST	man	generic male role
+ILSE	woman	female name
+JON	man	male name
+NATHANIEL	man	male name
+VICENTE	man	male name
+11302	man	bodyguard, male
+DANIS	man	male name
+ERGO	man	script NONE_600_ERGO (was woman: no male cue, high pitch)
+GRIF	man	male name
+LIMAN	man	navy veteran, male name
+MAIWEN	woman	mourns him as my love
+GAMAL	man	male name
+HERALD	man	male name
+LEXX	woman	no male cue, high pitch
+ORTWIN	woman	script VLK_6246_ORTWIN (was man: male name)
+ALDER	man	referred to as his name
+EDGAR	man	male name
+GUARDMINE	man	guard, male
+JOHAN	man	male name
+NIRKA	man	male name
+OTIS	man	male name
+AMIR	man	male name
+BALNI	man	navy veteran, male name
+BERTEL	man	male name
+FIGARO	man	male name
+FINJA	woman	female name
+INGOR	man	male name
+TOLLEK	man	male name
+BDT	man	bandit, male
+CULUS	man	brawler, male
+INNKEEPER	man	generic male role
+IVAN	man	male name
+MEDIKAMENTEN	man	barber-surgeon, male
+BERMAR	man	male name
+FANE	woman	no male cue, high pitch
+HOOKER	woman	brothel courtesan
+THUG	man	generic male role
+BORR	man	male name
+DICKON	man	male name
+FAHDA	woman	female name
+BERTER	man	male name
+BLOODWYN	man	male name
+NADINE	woman	speaks of her daughter
+NOVIZE	man	monastery novice, male
+SVEN	man	male name
+UWE	man	male name
+BEVIN	man	male name
+LOWELL	man	woodcutter, male name
+ROSITA	woman	female name
+BARNABA	man	speaks of my wife
+ELIAS	man	male name
+LAZAR	man	male name
+REMY	man	male name
+TILL	man	male name
+DEGORY	man	male name
+GERHARD	man	male name
+INSTRUCTOR	man	generic male role
+Q304	man	ambient male NPC
+SUES	man	male name
+DINKEL	man	male name
+FYNN	man	male name
+GABRIEN	man	male name
+KAF	man	referred to as his name
+LENA	woman	female name
+LORIA	woman	female name
+MIRON	man	male name
+NIKOLT	man	male name
+ROY	man	male name
+SACHS	man	male name
+DANIEL	man	male name
+HOMER	man	male name
+KYLID	man	male name
+LOGAR	man	male name
+LUCAS	man	male name
+LUCY	woman	female name
+MURK	man	male name
+RAHELA	woman	female name
+RANDHAL	man	male name
+EWALD	man	male name
+FANATIC	man	generic male role
+GERD	man	male name
+PATRACJAN	man	male name
+THIEF	man	generic male role
+VARIN	man	male name
+AKSE	man	male name
+FASTTRAVEL	man	male guide
+TAXCOLLECTOR	man	generic male role
+VOLKERSPEAKER2	man	propaganda speaker, male
+VOLKERSPEAKER3	man	propaganda speaker, male
+VOLKERSPEAKER	man	propaganda speaker, male
+WOLFSON	man	male gang name
+4021	man	ambient male NPC
+ALVAREZ	woman	script PIR_1330_ALVAREZ (was man: male name)
+CLOWN	man	generic male role
+HARRI	man	male name
+LEA	woman	harassed by men, female
+MAIK	man	male name
+MYSTERIOUSLEONZO	man	male name
+PRAWUS	man	male name
+RENEGADE2	man	generic male role
+SOLIS	man	script SLD_13573_SOLIS (was woman: no male cue, high pitch)
+ANSKAR	man	male name
+BEGGAR	woman	script VLK_11277_BEGGAR (was man: generic male role)
+BERNAND	man	male name
+DARTHE	man	male name
+DRUNKENSAILOR	man	generic male role
+DUNCAN	man	male name
+FMQ003CITIZEN	woman	script VLK_6243_CITIZEN (was man: pines for the woman he loves)
+KQ404	man	male agitator
+MYSTERIOUSMAN	man	male role name
+NERAL	man	male name
+THAMIL	woman	no male cue, high pitch
+WALTER	man	male name
+DARRYL	man	male name
+DORRAN	man	male name
+MORTY	man	former guard, male name
+NELSONM	man	male name
+NEVIL	man	male name
+NIKOLAS	man	male name
+SAILORCROOK	man	generic male role
+ELWART	man	male name
+GRIZ	man	male name
+GROEN	man	male name
+HOD	man	male name
+IGOR	man	male name
+KATHIA	woman	courtesan, called sweetie
+REFUGEE	man	generic male role
+SHEPHERD	man	generic male role
+TIRKE	woman	no male cue, high pitch
+WOODCUTTER	man	generic male role
+ARTUR	man	monastery novice, male name
+DEVIR	man	male name
+FEIL	man	male name
+GALBO	man	male name
+GRAVE	man	generic male role
+HEINSER	man	male name
+KATRINA	woman	female name
+NORMAN	man	male name
+SIGMUN	man	male name
+4022	man	ambient male NPC
+CABI	man	city guard, male
+CASTAWAY	man	generic male role
+FARMER	man	generic male role
+FULKO	man	male name
+HOMELESSCITY	man	generic male role
+OTHEKAR	man	monastery elder, male name
+RECON	man	male name
+VOLKERGUARD	man	guard, male
+ADRIEN	man	male name
+JENS	man	male name
+KLAUS	man	male name
+NONE	man	placeholder, male default
+RENE	woman	no male cue, high pitch
+WNREFUGEE	woman	script VLK_11176_REFUGEE (was man: generic male role)
+BARRY	man	male name
+BRODDY	man	male name
+CITYGUARD	man	guard, male
+DACK	man	male name
+FRED	man	says his name is Fred
+NIRKO	man	worker, male
+TARA	woman	female name
+ALCAS	man	male name
+BADULF	man	male name
+BOLES	man	male name
+ELDERLYWOMAN	woman	female role name
+ELFEG	man	male name
+ESTI	woman	calls herself a lady
+GARDENER	man	generic male role
+GREGOR	man	male name
+HOMELESS	man	generic male role
+LEONARDO	man	male name
+MILLIE	woman	female name
+ROLF	man	male name
+SEVERIN	man	male name
+WATERDEATH	man	generic male role
+13319	man	claimed to be a brother
+APPLETRADER	man	generic male role
+ARAXOSCITYGUIDE	man	generic male role
+CUSTO	man	male name
+GRAVEPIRATE	man	generic male role
+HOMELESS02	man	generic male role
+HUNTER	man	generic male role
+LEAN	man	male nickname
+MYRMIDON	man	mercenary, male
+PAULUS	man	male name
+RATCATCHER	man	generic male role
+WIDOW	woman	female role name
+11200	woman	speaks of her husband
+11300	man	script BAU_11300_FARMER (was woman: no male cue, high pitch)
+13316	man	fake brother scene, male
+ANAIS	woman	asks to be walked home
+CHRONICLEMAN	man	male role name
+DISMAS	man	male name
+ELID	man	male name
+GERKE	man	male name
+JORIS	man	male name
+MADOG	man	male name
+MIA	woman	female name
+OLDCITYGUARD	man	guard, male
+STEFAN	man	male name
+URS	man	male name
+VRAZKA	woman	Jan: she is a woman in-game (was: harbor thief, male)
+WATERFALL	man	generic male role
+13370	man	ambient male NPC
+13872	man	addressed as you guys
+BANDIT	man	generic male role
+CITIZEN07	man	script VLK_13507_CITIZEN (was woman: no male cue, high pitch)
+CITIZEN	man	script VLK_13582_CITIZEN (was woman: no male cue, high pitch)
+CITYGUARD04	man	guard, male
+ENIGMATICWANDERER	man	generic male role
+EVA	woman	female name
+FIELDRAIDERSLAYER	man	generic male role
+LEADER	man	generic male role
+NEK	man	male name
+NIVEL	man	male name
+Q308	man	mage, male
+SIGUND	man	male name
+TOM	man	male name
+WORRIEDCITIZENMAIN	man	script VLK_14009_WORRIEDCITIZENMAIN (was woman: no male cue, high pitch)
+ZACKY	man	male name
+AMBROSIA	woman	female name
+AMJAK	man	one of the boys
+BEWILDEREDFARMER	man	generic male role
+FELLER	man	generic male role
+GILES	man	male name
+HORNPLAYER	man	called his noise and fist
+LATHI	man	male name
+LUNATIC	man	generic male role
+PECULIARCITIZEN	man	has a beard
+REMUZ	man	male name
+ROEL	man	male name
+VIRAN	man	male name
+WANDERER	man	generic male role
+WEIRDO	man	generic male role
+WORKER4	man	generic male role
+WORKERGUARD	man	guard, male
+ANGRYFISHER	man	generic male role
+ARAXOSCITYGUIDE2	man	generic male role
+ASTOL	man	male name
+FLORA	woman	female name
+GHOST02	man	generic male role
+HOLIDAYCITIZEN	man	script BAU_13946_HOLIDAYCITIZEN (was woman: no male cue, high pitch)
+JOHNYSILVERHAND	man	male name
+NAARS	man	male name
+WEEDFAN	man	generic male role
+WOLFSONS	man	male gang
+13356	man	script BAU_13356_FARMER (was woman: no male cue, high pitch)
+ABLO	man	script NONE_13405_ABLO (was woman: no male cue, high pitch)
+ARAXOS01	man	generic male role
+ARENAGUARD	man	guard, male
+ARMORSELLER	man	generic male role
+COURIER	man	generic male role
+CRISEN	man	script VLK_13509_CRISEN (was woman: no male cue, high pitch)
+FEMALEDRUNKARD	woman	female role name
+FISHERMAN	man	generic male role
+HOBO	man	generic male role
+MIROH	man	male name
+PIRATETRADER	man	pirate, male
+SCAMPIRATE	man	pirate, male
+THERRY	man	male name
+URYCH	man	male name
+13369	man	script BAU_13369_FARMER (was woman: no male cue, high pitch)
+13633	man	pirate with rum
+13639	woman	script VLK_13639_GIRL (was man: ambient male NPC)
+13655	man	script BAU_13655_FARMER (was woman: no male cue, high pitch)
+ARAXOS02	man	generic male role
+BEATENCITIZEN	man	generic male role
+CRAZYWOLFSON	man	male gang name
+CURTIS	man	male name
+EDMUND	man	male name
+GLYNN	man	male name
+HASMETH	man	male name
+PETE	man	male name
+PIRGUARDBEN	man	male name Ben
+RICHARD	man	male name
+RINGTHUG	man	generic male role
+SARADOC	man	male name
+SOUTHERNER01	man	generic male role
+TOHAR	man	male name
+WORKER5	man	generic male role
+13328	man	ambient male NPC
+13415	man	ambient male NPC
+ALCHEMICEVENT	woman	no male cue, high pitch
+ARAXOS03	man	generic male role
+BLINDEDANDERAS	man	male name Anderas
+BODYGUARD01	man	bodyguard, male
+BORRIS	woman	script VLK_3023_BORIS (was man: male name)
+CAPTUREDORC	man	orc, male
+DRUNKHOBO	man	generic male role
+FINBARBODYGUARD	man	bodyguard, male
+FORAL	man	male name
+GAMEMASTER	man	generic male role
+GRETEL	woman	female name
+HEREFORD	man	thug, male name
+LAURIN	man	male name
+MALEBATH	man	male bathhouse attendant
+MIKKEL	man	male name
+MILITIA05	man	generic male role
+PIETER	man	harasses women, male
+SALERS	man	male name
+SCARMAN	man	generic male role
+SMITH	man	generic male role
+SMUGGLER02	man	smuggler, male
+STRANGECOOK	man	generic male role
+TAILOR	man	generic male role
+TRAVELLEREVENT	man	generic male role
+11173	man	ambient male NPC
+11247	man	ambient male NPC
+11303	man	called old bastard
+13313	man	script BDT_13313_BANDIT (was woman: no male cue, high pitch)
+13368	man	script BAU_13368_FARMER (was woman: no male cue, high pitch)
+13407	man	drunk guard, male
+13410	man	script NONE_13410_TRAVELER (was woman: no male cue, high pitch)
+13638	man	ambient male NPC
+13783	man	script NONE_13783_FISHERMAN (was woman: no male cue, high pitch)
+ADI	man	male name
+ARAXOS04	man	generic male role
+ARAXOS05	man	generic male role
+BAKER	man	generic male role
+BODYGUARD	man	bodyguard, male
+BRAD	man	male name
+CREEPYTRADER	man	generic male role
+DOGGO	woman	animal, high pitch
+DULLCITIZEN	man	generic male role
+FAKEHERO	man	generic male role
+FIREEATER	man	generic male role
+FISHINGNOVIZE	man	generic male role
+GUARD	man	generic male role
+LIMAK	man	male name
+MURPHY	man	male name
+NIZAR	man	male name
+PEDDLER	man	generic male role
+THULSA	man	male name
+11078	man	ambient male NPC
+11152	man	ambient male NPC
+11243	man	ambient male NPC
+11246	man	ambient male NPC
+11271	woman	no male cue, high pitch
+13310	man	ambient male NPC
+13331	man	ambient male NPC
+13357	man	ambient male NPC
+13366	woman	no male cue, high pitch
+13689	man	script NONE_13689_HOMELESS (was woman: no male cue, high pitch)
+13760	man	ambient male NPC
+BODYGUARD02	man	bodyguard, male
+BODYGUARD03	man	bodyguard, male
+BODYGUARD04	man	bodyguard, male
+BODYGUARD05	man	bodyguard, male
+CEMETERYMADMAN	man	madman, male
+CITIZEN06	man	generic male role
+CRYINGFORHELP	woman	no male cue, high pitch
+DRUNKENGUIDE	man	generic male role
+GUIDO	man	male name
+MILTIA	man	generic male role
+OLDLADY	woman	female role name
+PRISONGUARD	man	guard, male
+RESPECTEDCITIZEN	man	script VLK_13358_RESPECTEDCITIZEN (was woman: no male cue, high pitch)
+RUNNINGNOVIZE	man	monastery novice, male
+SQ505	man	ambient male NPC
+WOLFSON01	man	male gang name
+11098	man	ambient male NPC
+11153	man	ambient male NPC
+11244	man	script SLD_11244_ARAXOS (was woman: no male cue, high pitch)
+11270	man	ambient male NPC
+13324	man	ambient male NPC
+13325	man	ambient male NPC
+13338	man	script NONE_13338_OLDMAN (was woman: no male cue, high pitch)
+13621	man	ambient male NPC
+CAPTAINARCHOLOS	man	generic male role
+DANTOURNAMENTFIGHT	man	male name Dan
+KOLG	man	male name
+OLDMAN	man	male role name
+PIRATESMITH	man	pirate smith, male
+Q401	man	ambient male NPC
+RECRUIT01	man	guard recruit, male
+STOCKGUARD	man	guard, male
+STRANGER	man	generic male role
+TIREDAMJAK	man	same NPC as Amjak
+VOLKERGUARD01	man	guard, male
+VOLKERGUARD02	man	guard, male
+VOLKERGUARD03	man	guard, male
+WEIGAR	man	male name
+WORKER2	man	generic male role
+WORKER3	man	generic male role
+11084	man	ambient male NPC
+11170	man	ambient male NPC
+13323	man	ambient male NPC
+13337	man	ambient male NPC
+13416	man	ambient male NPC
+13656	man	script BAU_13656_FARMER (was woman: no male cue, high pitch)
+13779	man	script VLK_13779_HOBO (was woman: no male cue, high pitch)
+13873	man	Silbach group of men
+13874	man	Silbach group of men
+BANDITWS	man	generic male role
+BECKETT	man	smuggler captain, male
+FABIOVICTIM	woman	no male cue, high pitch
+FARMER02	man	generic male role
+GARRUS	man	male name
+GETORYX	woman	no male cue, high pitch
+GUIDEMERCHANT	man	generic male role
+JERRAN	man	male name
+MAKOT	man	male name
+NOTAFREDRIK	woman	script NONE_13681_NOTAFREDRIK (was man: male name Fredrik)
+RECRUIT02	man	guard recruit, male
+RECRUIT03	man	guard recruit, male
+RUDI	man	male name, hunter
+SOUTHERNER	man	generic male role
+11075	man	script VLK_11075_HOBO (was woman: no male cue, high pitch)
+11092	man	ambient male NPC
+11113	man	script NONE_11113_THUG (was woman: no male cue, high pitch)
+11292	man	script VLK_11292_DRUNKENCITIZEN (was woman: no male cue, high pitch)
+11293	man	ambient male NPC
+13344	man	script NONE_13344_REFUGEE (was woman: no male cue, high pitch)
+13367	woman	no male cue, high pitch
+13409	woman	no male cue, high pitch
+ALF	man	male name
+ARIES	man	a ram
+CITYGUARD48	man	guard, male
+CITYGUARD49	man	guard, male
+FAKEFARMER	man	generic male role
+FALLINGGUY	man	male role name
+FARMER19	man	generic male role
+FARMER20	man	generic male role
+FARMER21	man	generic male role
+FISHMONGER1	man	generic male role
+HOOLIGANS	man	male gang
+LEONZO	man	male name
+MANHUNTER	man	generic male role
+MILITIA06	man	generic male role
+OLDDOG	woman	animal, high pitch
+PETRAMAN	man	male role name
+PIRATECORTEZ	man	pirate, male
+POTIONSELLER	man	generic male role
+REG	man	male name
+THIEF02	man	generic male role
+VILLAN	man	male name
+VOLKERGUARD04	man	guard, male
+WISP	woman	creature, high pitch
+MIL	man	male name

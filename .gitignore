@@ -1,0 +1,30 @@
+# work/ is an allowlist: everything in it is derived from the game's own files (dialogue text, extracted archives,
+# QA transcripts, line sets, prompt dumps) or is local state, EXCEPT the few tables that are entirely ours. Users
+# regenerate the rest from their own install: vdfs_extract.py -> parse_ou.py -> npc_gender.py / who_speaks.py -> stages.
+work/*
+!work/batches/
+work/batches/*
+!work/batches/*.dir.tsv
+work/batches/svm_all.dir.tsv
+!work/cast.tsv
+!work/cast_features.json
+!work/cast_overrides.tsv
+!work/gender_llm.tsv
+!work/gender_script.tsv
+!work/svm_voices.tsv
+
+# generated audio, models, third-party runtime, voice anchors (the anchors ship as a voice bank with the audio pack)
+out/
+models/
+tools/
+refs/
+*.mod
+*.wav
+
+# local one-off experiment drivers and state
+run_round3.sh
+.venv/
+__pycache__/
+*.bak-*
+*.log
+*.err

@@ -1,0 +1,165 @@
+<title>Archolos Voice Bench</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root{
+    --bg:#ECEDEA; --surface:#F4F4F1; --ink:#22241F; --muted:#6B6D66; --line:#CFD1CB; --chip:#E1E2DD;
+    --accent:#A8642C; --accent-ink:#FFFFFF; --good:#3F7D6B; --good-ink:#FFFFFF;
+    --display:"Fraunces",Georgia,"Times New Roman",serif;
+    --sans:"IBM Plex Sans","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    --mono:"IBM Plex Mono",Consolas,"Courier New",monospace;
+    color-scheme:light;
+  }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+    --bg:#17181A; --surface:#202225; --ink:#E7E2D8; --muted:#9A968D; --line:#34373B; --chip:#2A2D31;
+    --accent:#D08A4A; --accent-ink:#1A1206; --good:#6FA89A; --good-ink:#0E1A17; color-scheme:dark; } }
+  :root[data-theme="dark"]{
+    --bg:#17181A; --surface:#202225; --ink:#E7E2D8; --muted:#9A968D; --line:#34373B; --chip:#2A2D31;
+    --accent:#D08A4A; --accent-ink:#1A1206; --good:#6FA89A; --good-ink:#0E1A17; color-scheme:dark; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.5;padding-inline:20px;padding-block:32px 64px}
+  .wrap{max-width:880px;margin-inline:auto;display:grid;gap:28px}
+  header{display:grid;gap:10px}
+  h1{font-family:var(--display);font-weight:600;font-size:clamp(28px,4.5vw,40px);line-height:1.05;margin:0;letter-spacing:-0.01em;text-wrap:balance}
+  .lede{margin:0;max-width:62ch;color:var(--muted)}
+  .eyebrow{font-family:var(--mono);font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding-top:6px}
+  button{font:inherit;color:inherit;background:none;border:1px solid var(--line);border-radius:6px;padding:7px 12px;cursor:pointer}
+  button:hover{border-color:var(--muted)}
+  button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .toggle[aria-pressed="true"]{background:var(--good);border-color:var(--good);color:var(--good-ink)}
+  .count{font-family:var(--mono);font-size:12.5px;color:var(--muted);margin-left:auto}
+  .summary{display:none;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding-block:14px}
+  :root.revealed .summary{display:block}
+  .summary table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+  .summary th,.summary td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);font-size:14px}
+  .summary th{font-weight:500;color:var(--muted);font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase}
+  .summary td.n{font-family:var(--mono)}
+  .line{display:grid;gap:10px;padding-block:18px;border-top:1px solid var(--line)}
+  .meta{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:baseline;font-family:var(--mono);font-size:12.5px;color:var(--muted)}
+  .meta .num{color:var(--ink);font-weight:500}
+  .meta .spk{color:var(--accent);font-weight:500;letter-spacing:.04em}
+  .text{margin:0;font-size:17px;max-width:66ch}
+  .dir{margin:0;color:var(--muted);font-style:italic;max-width:66ch}
+  .dir b{font-style:normal;font-weight:500}
+  .clips{display:grid;gap:8px;margin-top:4px}
+  .clip{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;background:var(--surface);border-radius:8px;padding:8px 10px}
+  .play{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;font-family:var(--mono);font-weight:500;font-size:14px;border:1px solid var(--line);padding:0}
+  .play.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+  .mid{display:grid;gap:5px;min-width:0}
+  .bar{height:3px;background:var(--chip);border-radius:2px;overflow:hidden}
+  .bar i{display:block;height:100%;width:0;background:var(--accent)}
+  .label{font-size:13px;color:var(--muted);min-height:1.2em}
+  .label span{visibility:hidden}
+  :root.revealed .label span{visibility:visible}
+  .rate{display:flex;gap:6px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+  .score{display:flex;gap:2px}
+  .score button{width:30px;height:30px;padding:0;border-radius:4px;font-family:var(--mono);font-size:13px}
+  .score button.sel{background:var(--chip);border-color:var(--muted)}
+  .best{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);padding-left:6px;border-left:1px solid var(--line)}
+  .best input{margin:0;accent-color:var(--good)}
+  .clip.best-on{box-shadow:inset 0 0 0 1px var(--good)}
+  .export{display:none;gap:10px}
+  .export.open{display:grid}
+  textarea{width:100%;min-height:180px;font-family:var(--mono);font-size:12.5px;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:10px;resize:vertical}
+  .note{font-size:13px;color:var(--muted);margin:0;max-width:66ch}
+  @media (max-width:560px){ .clip{grid-template-columns:auto 1fr} .rate{grid-column:1/-1;justify-content:flex-start} }
+  @media (prefers-reduced-motion:no-preference){ .bar i{transition:width .15s linear} }
+</style>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">The Chronicles of Myrtana · Archolos — voiceover experiment</div>
+    <h1>Archolos Voice Bench</h1>
+    <p class="lede" id="lede"></p>
+    <div class="controls">
+      <button class="toggle" id="reveal" aria-pressed="false">Reveal labels</button>
+      <button id="exportBtn">Export scores</button>
+      <button id="clearBtn">Clear scores</button>
+      <span class="count" id="count"></span>
+    </div>
+  </header>
+  <section class="export" id="export">
+    <p class="note">Copy this into the terminal for me — it carries every score and pick.</p>
+    <textarea id="exportText" readonly></textarea>
+  </section>
+  <section class="summary" id="summary" aria-live="polite"></section>
+  <main id="rows"></main>
+</div>
+<script>
+/*__DATA__*/
+(function(){
+  var root=document.documentElement, rows=document.getElementById('rows');
+  var audio=new Audio(); var current=null;
+  var store={ get:function(k){try{return localStorage.getItem(k)}catch(e){return null}}, set:function(k,v){try{localStorage.setItem(k,v)}catch(e){}}, del:function(k){try{localStorage.removeItem(k)}catch(e){}} };
+  function K(r,c){return 'avb:'+DATA.round+':'+r.wav+':'+c.key} function KB(r){return 'avb:'+DATA.round+':best:'+r.wav}
+  try{ if(localStorage.getItem('avb:round')!==DATA.round){ Object.keys(localStorage).filter(function(k){return k.indexOf('avb:')===0}).forEach(function(k){localStorage.removeItem(k)}); localStorage.setItem('avb:round',DATA.round);} }catch(e){}
+  document.getElementById('lede').textContent=DATA.intro||'Clips are shuffled and unlabeled per line. Play them, score presence 1–5 (5 = a person in a room, not a machine), pick the best, then reveal. Scores stay in this browser.';
+  var letters=['1','2','3','4','5','6','7','8'];
+  function esc(s){return String(s).replace(/[&<>"]/g,function(m){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]})}
+  function build(){
+    rows.innerHTML='';
+    DATA.rows.forEach(function(r){
+      var sec=document.createElement('section'); sec.className='line';
+      var idShort=r.wav.replace(/\.WAV$/i,'');
+      sec.innerHTML='<div class="meta"><span class="num">'+String(r.n).padStart(2,'0')+'</span><span class="spk">'+r.speaker+'</span><span>'+idShort+'</span></div>'
+        +'<p class="text">“'+esc(r.text)+'”</p>'+(r.direction?'<p class="dir"><b>Direction</b> · '+esc(r.direction)+'</p>':'')+'<div class="clips"></div>';
+      var clips=sec.querySelector('.clips');
+      r.clips.forEach(function(c,i){
+        var el=document.createElement('div'); el.className='clip'; el.dataset.key=c.key;
+        var saved=store.get(K(r,c)); var bestKey=store.get(KB(r));
+        var scoreBtns=[1,2,3,4,5].map(function(n){return '<button data-n="'+n+'" class="'+(saved==String(n)?'sel':'')+'" aria-pressed="'+(saved==String(n))+'">'+n+'</button>'}).join('');
+        el.innerHTML='<button class="play" aria-label="Play clip '+letters[i]+'">'+letters[i]+'</button>'
+          +'<div class="mid"><div class="bar"><i></i></div><div class="label"><span>'+esc(c.label)+'</span></div></div>'
+          +'<div class="rate"><div class="score" role="group" aria-label="Presence score">'+scoreBtns+'</div>'
+          +'<label class="best"><input type="radio" name="best-'+r.n+'" id="best-'+r.n+'-'+c.key+'" '+(bestKey===c.key?'checked':'')+'> best</label></div>';
+        if(bestKey===c.key) el.classList.add('best-on');
+        el.querySelector('.play').addEventListener('click',function(){play(el,c.src)});
+        Array.prototype.forEach.call(el.querySelectorAll('.score button'),function(b){b.addEventListener('click',function(){
+          store.set(K(r,c),b.dataset.n);
+          Array.prototype.forEach.call(el.querySelectorAll('.score button'),function(x){x.classList.toggle('sel',x===b);x.setAttribute('aria-pressed',x===b)});
+          refresh();
+        })});
+        el.querySelector('input[type=radio]').addEventListener('change',function(){
+          store.set(KB(r),c.key);
+          Array.prototype.forEach.call(sec.querySelectorAll('.clip'),function(x){x.classList.toggle('best-on',x===el)});
+          refresh();
+        });
+        clips.appendChild(el);
+      });
+      rows.appendChild(sec);
+    });
+    refresh();
+  }
+  function play(el,src){
+    var btn=el.querySelector('.play'), bar=el.querySelector('.bar i');
+    if(current&&current.el===el&&!audio.paused){audio.pause();btn.classList.remove('on');current=null;return}
+    if(current){current.el.querySelector('.play').classList.remove('on');current.bar.style.width='0'}
+    audio.src=src; audio.play(); btn.classList.add('on'); current={el:el,bar:bar};
+  }
+  audio.addEventListener('timeupdate',function(){ if(current&&audio.duration) current.bar.style.width=(100*audio.currentTime/audio.duration)+'%' });
+  audio.addEventListener('ended',function(){ if(current){current.el.querySelector('.play').classList.remove('on');current.bar.style.width='0';current=null} });
+  function tally(){
+    var t={}; DATA.versions.forEach(function(v){t[v]={sum:0,n:0,best:0}});
+    DATA.rows.forEach(function(r){ var b=store.get(KB(r)); r.clips.forEach(function(c){ var s=store.get(K(r,c)); if(s){t[c.label].sum+=Number(s);t[c.label].n++} if(b===c.key)t[c.label].best++ }) });
+    return t;
+  }
+  function refresh(){
+    var scored=0,total=0; DATA.rows.forEach(function(r){r.clips.forEach(function(c){total++; if(store.get(K(r,c)))scored++})});
+    document.getElementById('count').textContent=scored+'/'+total+' clips scored';
+    var t=tally(), s=document.getElementById('summary');
+    s.innerHTML='<table><thead><tr><th>Version</th><th>Avg presence</th><th>Scored</th><th>Picked best</th></tr></thead><tbody>'
+      +DATA.versions.map(function(v){return '<tr><td>'+esc(v)+'</td><td class="n">'+(t[v].n?(t[v].sum/t[v].n).toFixed(2):'—')+'</td><td class="n">'+t[v].n+'</td><td class="n">'+t[v].best+'</td></tr>'}).join('')+'</tbody></table>';
+  }
+  function exportText(){
+    var t=tally(); var out='Archolos Voice Bench — '+new Date().toISOString().slice(0,16).replace('T',' ')+'\n\n';
+    DATA.versions.forEach(function(v){out+=v+': avg '+(t[v].n?(t[v].sum/t[v].n).toFixed(2):'-')+' over '+t[v].n+' clips, picked best '+t[v].best+'x\n'});
+    out+='\n';
+    DATA.rows.forEach(function(r){ var b=store.get(KB(r)); var parts=r.clips.map(function(c){return c.label+'='+(store.get(K(r,c))||'-')+(b===c.key?'*':'')}); out+=String(r.n).padStart(2,'0')+' '+r.speaker+' '+r.wav+': '+parts.join(' | ')+'\n' });
+    return out;
+  }
+  document.getElementById('reveal').addEventListener('click',function(e){ var on=root.classList.toggle('revealed'); e.currentTarget.setAttribute('aria-pressed',on); refresh(); });
+  document.getElementById('exportBtn').addEventListener('click',function(){ var ex=document.getElementById('export'); ex.classList.add('open'); var ta=document.getElementById('exportText'); ta.value=exportText(); ta.focus(); ta.select(); try{navigator.clipboard.writeText(ta.value)}catch(e){} });
+  document.getElementById('clearBtn').addEventListener('click',function(){ if(!confirm('Clear all scores and picks?'))return; DATA.rows.forEach(function(r){store.del(KB(r));r.clips.forEach(function(c){store.del(K(r,c))})}); build(); });
+  build();
+})();
+</script>

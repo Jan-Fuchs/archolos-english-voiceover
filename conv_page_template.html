@@ -1,0 +1,111 @@
+<title>Ship Conversations</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;600&display=swap');
+  :root{
+    --bg:#f3f1ec; --ink:#1d2229; --muted:#5f6772; --line:#d6d1c6; --card:#faf9f6;
+    --accent:#8a5a1f; --accent-ink:#ffffff; --chip:#e7e1d4; --on:#2f6f4f; --warn:#9a3b2c;
+    --serif:'Source Serif 4',Georgia,'Times New Roman',serif; --sans:'Source Sans 3','Segoe UI',system-ui,sans-serif; --mono:'JetBrains Mono',Consolas,monospace;
+  }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+    --bg:#15181c; --ink:#e8e4dc; --muted:#a29b8f; --line:#2e333a; --card:#1c2025; --accent:#d3a35d; --accent-ink:#15181c; --chip:#2a2f36; --on:#6fbf93; --warn:#e07a63; } }
+  :root[data-theme="dark"]{
+    --bg:#15181c; --ink:#e8e4dc; --muted:#a29b8f; --line:#2e333a; --card:#1c2025; --accent:#d3a35d; --accent-ink:#15181c; --chip:#2a2f36; --on:#6fbf93; --warn:#e07a63; }
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.45;padding-inline:clamp(16px,4vw,40px);padding-block:28px 60px}
+  .wrap{max-width:860px;margin:0 auto}
+  h1{font-family:var(--serif);font-weight:600;font-size:clamp(26px,4vw,34px);margin:0 0 6px;text-wrap:balance}
+  .lede{color:var(--muted);max-width:65ch;margin:0 0 18px}
+  .bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:26px}
+  .bar .count{font-family:var(--mono);font-size:13px;color:var(--muted);margin-left:auto}
+  button{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:6px;padding:6px 12px;cursor:pointer}
+  button:hover{border-color:var(--accent)} button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  button.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+  button.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+  button[disabled]{opacity:.4;cursor:default}
+  section.conv{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px clamp(14px,3vw,24px);margin-bottom:22px}
+  section.conv h2{font-family:var(--serif);font-weight:600;font-size:22px;margin:0 0 4px;text-wrap:balance}
+  .meta{font-family:var(--mono);font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
+  .playall{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+  ol.lines{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+  ol.lines li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 14px;align-items:start;padding:9px 0;border-bottom:1px solid var(--line)}
+  ol.lines li.now{background:color-mix(in srgb,var(--accent) 12%,transparent);margin-inline:-8px;padding-inline:8px;border-radius:6px}
+  ol.lines li.head{display:block;padding:10px 0 6px;border-bottom:1px dashed var(--line)}
+  .branch{font-family:var(--mono);font-size:12px;letter-spacing:.03em;color:var(--muted)}
+  .spk{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);display:block;margin-bottom:2px}
+  .txt{font-family:var(--serif);font-size:17px}
+  .btns{display:flex;gap:4px;white-space:nowrap}
+  .btns button{font-family:var(--mono);font-size:13px;padding:5px 9px;min-width:38px}
+  .rate{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px 18px;margin-top:14px}
+  .rate .v{display:flex;flex-direction:column;gap:6px}
+  .rate .lbl{font-family:var(--mono);font-size:13px}
+  .rate .lbl .real{color:var(--muted);margin-left:6px}
+  .score{display:flex;gap:3px}
+  .score button{width:32px;height:32px;padding:0;font-family:var(--mono);font-size:13px}
+  .score button.sel{background:var(--chip);border-color:var(--muted)}
+  .pick{margin-top:12px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+  .pick .q{font-size:14px;color:var(--muted);margin-right:4px}
+  .pick button.sel{background:var(--on);color:#fff;border-color:var(--on)}
+  .labeled{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
+  .labeled button{text-align:left;font-family:var(--mono);font-size:13px}
+  textarea{width:100%;min-height:140px;font-family:var(--mono);font-size:12px;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:8px}
+  .note{color:var(--muted);font-size:14px}
+  @media (max-width:520px){ ol.lines li{grid-template-columns:1fr} .btns{justify-content:flex-start} }
+  @media (prefers-reduced-motion: reduce){ *{transition:none!important} }
+</style>
+<div class="wrap">
+  <h1>Ship conversations</h1>
+  <p class="lede" id="lede"></p>
+  <div class="bar">
+    <button id="revealBtn">Reveal versions</button>
+    <button id="exportBtn">Export scores</button>
+    <button id="clearBtn">Clear scores</button>
+    <span class="count" id="count"></span>
+  </div>
+  <div id="exportBox" hidden>
+    <p class="note">Copy this into the terminal for me. It carries every score and pick.</p>
+    <textarea id="exportTxt" readonly></textarea>
+  </div>
+  <div id="convs"></div>
+  <div id="extras"></div>
+</div>
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function(){
+  var DATA=JSON.parse(document.getElementById('data').textContent);
+  var store={get:function(k){try{return localStorage.getItem(k)}catch(e){return null}},set:function(k,v){try{localStorage.setItem(k,v)}catch(e){}},del:function(k){try{localStorage.removeItem(k)}catch(e){}}};
+  try{ if(localStorage.getItem('cvb:round')!==DATA.round){ Object.keys(localStorage).filter(function(k){return k.indexOf('cvb:')===0}).forEach(function(k){localStorage.removeItem(k)}); localStorage.setItem('cvb:round',DATA.round);} }catch(e){}
+  document.getElementById('lede').textContent=DATA.intro||'Each conversation is rendered in several versions, labelled X/Y/Z at random per conversation. Play a whole version in order, then score how natural the conversation flows (1 = cuts and jumps, 5 = one continuous scene) and pick the best. Scores stay in this browser.';
+  var audio=new Audio(); var revealed=false; var seq=null; var cur=null;
+  function K(c,v,what){return 'cvb:'+c.id+':'+v+':'+what}
+  function stopAll(){ audio.pause(); seq=null; if(cur){cur.btn.classList.remove('on'); if(cur.li)cur.li.classList.remove('now'); cur=null} document.querySelectorAll('.playall button.on').forEach(function(b){b.classList.remove('on')}) }
+  function playOne(src,btn,li){ if(cur&&cur.btn===btn&&!audio.paused){stopAll();return} stopAll(); audio.src=src; audio.play(); btn.classList.add('on'); if(li)li.classList.add('now'); cur={btn:btn,li:li} }
+  function playSeq(conv,vi,btn){ if(seq&&seq.btn===btn){stopAll();return} stopAll(); seq={conv:conv,vi:vi,i:0,btn:btn}; btn.classList.add('on'); next() }
+  function next(){ if(!seq)return; var c=seq.conv,v=c.versions[seq.vi]; while(seq.i<c.lines.length&&!v.clips[seq.i])seq.i++; if(seq.i>=c.lines.length){var b=seq.btn;seq=null;b.classList.remove('on');if(cur&&cur.li)cur.li.classList.remove('now');cur=null;return}
+    var li=document.getElementById(c.id+'-l'+seq.i); if(cur&&cur.li)cur.li.classList.remove('now'); li.classList.add('now'); cur={btn:seq.btn,li:li}; audio.src=v.clips[seq.i]; audio.play(); seq.i++ }
+  audio.addEventListener('ended',function(){ if(seq){setTimeout(next,350)} else if(cur){cur.btn.classList.remove('on'); if(cur.li)cur.li.classList.remove('now'); cur=null} });
+  function count(){ var s=0,t=0; DATA.convs.forEach(function(c){c.versions.forEach(function(v){t++; if(store.get(K(c,v.label,'score')))s++})}); document.getElementById('count').textContent=s+'/'+t+' scored' }
+  var root=document.getElementById('convs');
+  DATA.convs.forEach(function(c){
+    var sec=document.createElement('section'); sec.className='conv';
+    var h='<h2>'+c.title+'</h2><div class="meta">'+c.lines.length+' lines · '+c.versions.length+' versions'+(c.lines.some(function(l){return l.head})?' · branches are alternative paths, played one after another here':'')+'</div><div class="playall">';
+    c.versions.forEach(function(v,vi){ h+='<button class="primary" data-v="'+vi+'">Play all '+v.label+'</button>' });
+    h+='<button class="stop">Stop</button></div><ol class="lines">';
+    c.lines.forEach(function(l,i){ if(l.head) h+='<li class="head"><div class="branch">'+l.head+'</div></li>'; h+='<li id="'+c.id+'-l'+i+'"><div><span class="spk">'+l.spk+'</span><span class="txt">'+l.text+'</span></div><div class="btns">';
+      c.versions.forEach(function(v,vi){ h+='<button data-v="'+vi+'" data-i="'+i+'"'+(v.clips[i]?'':' disabled')+' aria-label="Play version '+v.label+'">'+v.label+'</button>' }); h+='</div></li>' });
+    h+='</ol><div class="rate">';
+    c.versions.forEach(function(v){ var saved=store.get(K(c,v.label,'score')); h+='<div class="v"><span class="lbl">Flow of '+v.label+'<span class="real" data-real="'+v.key+'"></span></span><div class="score" data-v="'+v.label+'">'+[1,2,3,4,5].map(function(n){return '<button data-n="'+n+'" class="'+(saved==String(n)?'sel':'')+'" aria-pressed="'+(saved==String(n))+'">'+n+'</button>'}).join('')+'</div></div>' });
+    h+='</div><div class="pick"><span class="q">Most natural as a whole:</span>'; var p=store.get(K(c,'pick','pick'));
+    c.versions.forEach(function(v){ h+='<button data-p="'+v.label+'" class="'+(p===v.label?'sel':'')+'">'+v.label+'</button>' }); h+='</div>';
+    sec.innerHTML=h; root.appendChild(sec);
+    sec.querySelectorAll('.playall button[data-v]').forEach(function(b){ b.addEventListener('click',function(){playSeq(c,+b.dataset.v,b)}) });
+    sec.querySelector('.playall .stop').addEventListener('click',stopAll);
+    sec.querySelectorAll('.btns button').forEach(function(b){ b.addEventListener('click',function(){ var v=c.versions[+b.dataset.v]; playOne(v.clips[+b.dataset.i],b,document.getElementById(c.id+'-l'+b.dataset.i)) }) });
+    sec.querySelectorAll('.score').forEach(function(g){ g.querySelectorAll('button').forEach(function(b){ b.addEventListener('click',function(){ store.set(K(c,g.dataset.v,'score'),b.dataset.n); g.querySelectorAll('button').forEach(function(x){x.classList.toggle('sel',x===b);x.setAttribute('aria-pressed',x===b)}); count() }) }) });
+    sec.querySelectorAll('.pick button').forEach(function(b){ b.addEventListener('click',function(){ store.set(K(c,'pick','pick'),b.dataset.p); sec.querySelectorAll('.pick button').forEach(function(x){x.classList.toggle('sel',x===b)}) }) });
+  });
+  if(DATA.extras&&DATA.extras.length){ var ex=document.getElementById('extras'); DATA.extras.forEach(function(e){ var sec=document.createElement('section'); sec.className='conv'; var h='<h2>'+e.title+'</h2><p class="note">'+(e.note||'')+'</p><div class="labeled">'; e.clips.forEach(function(cl,i){h+='<button data-i="'+i+'">▶ '+cl.label+'</button>'}); h+='</div>'; sec.innerHTML=h; ex.appendChild(sec); sec.querySelectorAll('button').forEach(function(b){ b.addEventListener('click',function(){playOne(e.clips[+b.dataset.i].src,b,null)}) }) }) }
+  document.getElementById('revealBtn').addEventListener('click',function(){ revealed=!revealed; document.querySelectorAll('.real').forEach(function(s){s.textContent=revealed?'= '+s.dataset.real:''}); this.textContent=revealed?'Hide versions':'Reveal versions' });
+  document.getElementById('exportBtn').addEventListener('click',function(){ var o={round:DATA.round,convs:{}}; DATA.convs.forEach(function(c){ var r={map:{},scores:{},pick:store.get(K(c,'pick','pick'))}; c.versions.forEach(function(v){ r.map[v.label]=v.key; r.scores[v.label]=store.get(K(c,v.label,'score')) }); o.convs[c.id]=r }); var box=document.getElementById('exportBox'); box.hidden=false; document.getElementById('exportTxt').value=JSON.stringify(o); box.scrollIntoView({block:'nearest'}); document.getElementById('exportTxt').select() });
+  document.getElementById('clearBtn').addEventListener('click',function(){ try{Object.keys(localStorage).filter(function(k){return k.indexOf('cvb:')===0&&k!=='cvb:round'}).forEach(function(k){localStorage.removeItem(k)})}catch(e){} document.querySelectorAll('.score button.sel,.pick button.sel').forEach(function(b){b.classList.remove('sel')}); count() });
+  count();
+})();
+</script>
