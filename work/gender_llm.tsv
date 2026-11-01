@@ -609,3 +609,11 @@ VILLAN	man	male name
 VOLKERGUARD04	man	guard, male
 WISP	woman	creature, high pitch
 MIL	man	male name
+FUREG	man	polish audio classifier p_female=0.001
+FISHMONGER2	man	polish audio classifier p_female=0.496
+TRAVELLER	man	polish audio classifier p_female=0.001
+BERNDT	man	polish audio classifier p_female=0.001
+GETORYKSPY	man	polish audio classifier p_female=0.001
+SALVISPY	man	polish audio classifier p_female=0.001
+SLUMSGUARDIAN	man	polish audio classifier p_female=0.001
+13330	man	polish audio classifier p_female=0.001

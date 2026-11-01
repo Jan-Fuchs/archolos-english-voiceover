@@ -3,11 +3,12 @@ continues (rendered files, QA rows and installed files are skipped). Steps:
   1. directions for every voiced SVM line from the (token,text) direction pool  -> work/batches/svm_all.dir.tsv
   2. line set with the anchor speaker per voice set (work/svm_voices.tsv)       -> work/svm_all_lines.tsv
   3. render (render_all.py)   4. QA (qa_all.py + qa_refine.py)   5. install (install_stage.py)
-  6. pack (pack_mod.py) as soon as no real Gothic2.exe runs (the dead PID-24340 shell is ignored)
+  6. pack (pack_mod.py) as soon as the game is closed (gamecheck.py)
 Needs the audio server running: tools\audiocpp\audiocpp_server.exe --config server.json --ui
 usage: .venv\Scripts\python svm_run.py [--no-pack] [--only 70,65]      status: work/svm_run.status, log: work/svm_run.log
 """
 import glob, json, os, re, subprocess, sys, time, urllib.request
+from gamecheck import game_running
 P = os.path.dirname(os.path.abspath(__file__)); os.chdir(P); PY = sys.executable
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 STATUS = os.path.join("work", "svm_run.status")
@@ -31,13 +32,6 @@ def server_up():
     try:
         with urllib.request.urlopen("http://127.0.0.1:8080/v1/models", timeout=5) as r: return r.status == 200
     except Exception: return False
-
-
-def real_game():
-    out = subprocess.run(["powershell", "-NoProfile", "-Command",
-                          "Get-Process -Name Gothic2 -ErrorAction SilentlyContinue | ForEach-Object { \"$($_.Id) $($_.HandleCount)\" }"],
-                         capture_output=True, text=True).stdout
-    return [l for l in out.splitlines() if l.strip() and not (l.split()[0] == "24340" and l.split()[1] == "0")]
 
 
 def main():
@@ -96,14 +90,13 @@ def main():
     # 6. pack
     if no_pack: status("pack skipped (--no-pack)"); status("=== svm_run done"); return
     waited = 0
-    while real_game():
+    while game_running():
         if waited == 0: status("game is running - waiting for it to close before packing")
         time.sleep(30); waited += 30
     D = os.path.join(os.environ.get("ARCHOLOS_DIR", "C:/Program Files (x86)/Steam/steamapps/common/TheChroniclesOfMyrtana"), "Data")
     for f in glob.glob(os.path.join(D, "KM_SpeechJAN*.mod")):
         open(f, "r+b").close()
-    env = dict(os.environ, PACK_FORCE="1")
-    r = subprocess.run([PY, "pack_mod.py"], capture_output=True, text=True, env=env, encoding="utf-8", errors="replace")
+    r = subprocess.run([PY, "pack_mod.py"], capture_output=True, text=True, encoding="utf-8", errors="replace")
     for l in r.stdout.strip().splitlines(): status("   " + l)
     status("=== svm_run done" + ("" if r.returncode == 0 else " (PACK FAILED)"))
 

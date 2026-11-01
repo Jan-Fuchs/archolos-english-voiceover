@@ -21,8 +21,9 @@ refs/
 *.mod
 *.wav
 
-# local one-off experiment drivers and state
+# local one-off experiment drivers, machine-specific switches and state
 run_round3.sh
+rawinput.py
 .venv/
 __pycache__/
 *.bak-*

@@ -8,8 +8,9 @@ GAME = os.environ.get("ARCHOLOS_DIR", "C:/Program Files (x86)/Steam/steamapps/co
 LIMIT = 1_500_000_000
 def dos_ts(y, mo, d, h=0, mi=0): return ((((y - 1980) << 9) | (mo << 5) | d) << 16) | ((h << 11) | (mi << 5))
 
-if os.environ.get("PACK_FORCE") != "1" and b"Gothic2.exe" in subprocess.run(["tasklist", "/FI", "IMAGENAME eq Gothic2.exe"], capture_output=True).stdout:
-    sys.exit("Gothic2.exe is running - close the game first (archives are locked while it runs)")
+from gamecheck import game_running
+if game_running():                                           # never write the archives under a running game (see gamecheck.py)
+    sys.exit("Gothic2.exe is running - close the game first (the game reads archive offsets once at startup)")
 files = [l.strip() for l in open(os.path.join(P, "work", "installed.txt"), encoding="utf-8") if l.strip() and os.path.exists(l.strip())]
 files = sorted({os.path.basename(f).upper(): f for f in files}.items())          # unique by name, alphabetical
 sizes = {n: os.path.getsize(p) for n, p in files}

@@ -1,0 +1,211 @@
+wav	instruction
+DIA_ARAXOSCITYGUIDE2_CITY_03_02.WAV	Friendly and keen, unhurried; a guide's practiced pitch, warmer on "make money".
+DIA_ARAXOSCITYGUIDE2_EXIT_03_01.WAV	A friendly parting reminder, unhurried; a salesman's light nudge.
+DIA_ARAXOSCITYGUIDE2_HELLO_03_01.WAV	Friendly and welcoming, unhurried; a practiced greeter's warmth.
+DIA_ARAXOSCITYGUIDE2_HELLO_03_02.WAV	Reassuring and easy, unhurried; gently amused.
+DIA_ARAXOSCITYGUIDE2_HELLO_03_05.WAV	Inviting, a salesman's light touch, unhurried.
+DIA_ARAXOSCITYGUIDE2_PLACE_03_02.WAV	Helpful and matter-of-fact, unhurried; a touch of salesmanship on "small fee".
+DIA_ARAXOSCITYGUIDE2_TELLABOUT_03_02.WAV	Explaining with quiet pride, unhurried; clear and businesslike.
+DIA_ARAXOSCITYGUIDE2_TELLABOUT_03_03.WAV	Same easy pride, a little warmer, unhurried; rounding it off neatly.
+DIA_ARAXOSCITYGUIDE2_TRADE_03_02.WAV	A confident salesman's boast, unhurried; proud of his wares.
+DIA_ARAXOSCITYGUIDE_HELLO_03_03.WAV	Proud and helpful, unhurried; a polished introduction, the question friendly and open.
+DIA_FISHMONGER1_TRADE_03_02.WAV	Plain and easygoing, unhurried; a merchant's brief welcome.
+DIA_TRAVELLEREVENT_POTION_03_01.WAV	Stiff and earnest, unhurried; a knight's grave, formal request.
+DIA_TRAVELLEREVENT_POTION_03_03.WAV	Firmer and insistent, unhurried; repeating himself with patience wearing thin.
+DIA_TRAVELLEREVENT_POTION_03_05.WAV	Impatient, a shade quicker; "enough of these games" clipped and stern.
+DIA_TRAVELLEREVENT_POTION_03_07.WAV	Offended and stiff, slower; wounded dignity, stressing "elsewhere" the second time.
+DIA_TRAVELLEREVENT_POTION_03_09.WAV	Indignant and louder, a shade quicker; a petulant final threat.
+DIA_TRAVELLEREVENT_POTION_03_11.WAV	Outraged and loud, quick; spitting "rascal", bitter weight on "potions".
+DIA_WATERDEATH_CUTSCENE_03_03.WAV	Weak and shaken, slow and halting; still in shock, the words trailing off.
+DIA_WATERDEATH_CUTSCENE_03_05.WAV	Hollow and trembling, slow; reliving it, faltering on "screaming".
+DIA_WATERDEATH_CUTSCENE_03_06.WAV	Quiet and broken, slow; shame creeping in on the last clause.
+DIA_WATERDEATH_CUTSCENE_03_08.WAV	Barely above a whisper, slow; guilt-stricken, the confession beginning.
+DIA_WATERDEATH_CUTSCENE_03_10.WAV	Pleading and wretched, a shade quicker; the excuse spilling out in shame.
+INFO_GETORYKSPY_DIE_05_00.WAV	Cold and bitter, unhurried; contempt hardening on "the whole damn Guild".
+INFO_GETORYKSPY_DIE_05_01.WAV	Harsher and louder, a shade quicker; spat out with disgust.
+INFO_GETORYKSPY_DIE_05_02.WAV	Low and menacing, slow; a quiet, cruel promise.
+INFO_GETORYKSPY_DIE_05_03.WAV	Mocking and dry, unhurried; a sneer at the failed trick.
+INFO_GETORYKSPY_DIE_05_04.WAV	Sharp and savage, fast; a snarled battle cry as he attacks.
+INFO_GETORYKSPY_V2_DIE_05_00.WAV	Cold and bitter, unhurried; contempt hardening on "the whole damn Guild".
+INFO_GETORYKSPY_V2_DIE_05_01.WAV	Harsher and louder, a shade quicker; spat out with disgust.
+INFO_GETORYKSPY_V2_DIE_05_02.WAV	Low and menacing, slow; a quiet, cruel promise.
+INFO_GETORYKSPY_V2_DIE_05_03.WAV	Mocking and dry, unhurried; a sneer at the failed trick.
+INFO_GETORYKSPY_V2_DIE_05_04.WAV	Sharp and savage, fast; a snarled battle cry as he attacks.
+INFO_GETORYKSPY_V3_DIE_05_00.WAV	Cold and bitter, unhurried; contempt hardening on "the whole damn Guild".
+INFO_GETORYKSPY_V3_DIE_05_01.WAV	Harsher and louder, a shade quicker; spat out with disgust.
+INFO_GETORYKSPY_V3_DIE_05_02.WAV	Low and menacing, slow; a quiet, cruel promise.
+INFO_GETORYKSPY_V3_DIE_05_03.WAV	Mocking and dry, unhurried; a sneer at the failed trick.
+INFO_GETORYKSPY_V3_DIE_05_04.WAV	Sharp and savage, fast; a snarled battle cry as he attacks.
+INFO_SALVISPY_DIE_05_00.WAV	Casual and questioning, unhurried; checking he has the right man.
+INFO_SALVISPY_DIE_05_02.WAV	Cold and quiet, slow; a menacing courtesy, the casualness gone.
+INFO_SALVISPY_DIE_05_03.WAV	Low and cruel, unhurried; relishing the threat, weight on "Gerwin".
+INFO_SALVISPY_DIE_05_04.WAV	Sharp and savage, fast; a snarled battle cry as he attacks.
+INFO_SALVISPY_V2_DIE_05_00.WAV	Casual and questioning, unhurried; checking he has the right man.
+INFO_SALVISPY_V2_DIE_05_02.WAV	Cold and quiet, slow; a menacing courtesy, the casualness gone.
+INFO_SALVISPY_V2_DIE_05_03.WAV	Low and cruel, unhurried; relishing the threat, weight on "Gerwin".
+INFO_SALVISPY_V2_DIE_05_04.WAV	Sharp and savage, fast; a snarled battle cry as he attacks.
+INFO_SALVISPY_V3_DIE_05_00.WAV	Casual and questioning, unhurried; checking he has the right man.
+INFO_SALVISPY_V3_DIE_05_02.WAV	Cold and quiet, slow; a menacing courtesy, the casualness gone.
+INFO_SALVISPY_V3_DIE_05_03.WAV	Low and cruel, unhurried; relishing the threat, weight on "Gerwin".
+INFO_SALVISPY_V3_DIE_05_04.WAV	Sharp and savage, fast; a snarled battle cry as he attacks.
+INFO_SLUMSGUARDIAN_CHANGEMYMIND_08_01.WAV	Smug and scolding, unhurried; satisfied to have gotten his way at last.
+INFO_SLUMSGUARDIAN_CHANGEMYMIND_08_02.WAV	Smug and easy, slow; laying out the terms with quiet menace underneath.
+INFO_SLUMSGUARDIAN_CHANGEMYMIND_08_04.WAV	Curt and dismissive, a shade sharper; sending him off to fetch the money.
+INFO_SLUMSGUARDIAN_EXIT_08_01.WAV	Cocky and mocking, unhurried; a sarcastic farewell with a veiled threat beneath.
+INFO_SLUMSGUARDIAN_EXIT_08_02.WAV	Smug and easy, unhurried; a racketeer's hollow promise of safety.
+INFO_SLUMSGUARDIAN_FORGETIT_08_01.WAV	Starts cool and dismissive, unhurried; hardens into a plain threat on the second sentence.
+INFO_SLUMSGUARDIAN_HELLO_08_00.WAV	Cocky and probing, unhurried; a street thug sizing up a stranger.
+INFO_SLUMSGUARDIAN_HELLO_08_01.WAV	Falsely friendly, unhurried; a knowing warning, weight on "trouble".
+INFO_SLUMSGUARDIAN_HELLO_08_02.WAV	Same false friendliness, unhurried; painting the danger with a certain relish.
+INFO_SLUMSGUARDIAN_HELLO_08_03.WAV	Lower and confiding, unhurried; the offer sliding into a smooth, sly pitch.
+INFO_SLUMSGUARDIAN_HELLO_HOWMUCH_08_02.WAV	Breezy and smug, unhurried; naming the price as if it were nothing.
+INFO_SLUMSGUARDIAN_HELLO_HOWMUCH_08_03.WAV	Breezy and smug, unhurried; naming the price as if it were nothing.
+INFO_SLUMSGUARDIAN_HELLO_NOTNOW_08_01.WAV	Unimpressed and greedy, unhurried; brushing the excuse aside with cold amusement.
+INFO_SLUMSGUARDIAN_HELLO_NOTNOW_08_03.WAV	Sudden anger, sharp and quick; he has caught the lie.
+INFO_SLUMSGUARDIAN_HELLO_NOTNOW_08_04.WAV	Hard and threatening, a shade quick; the menace building on "crack in the head".
+INFO_SLUMSGUARDIAN_HELLO_NOTNOW_08_05.WAV	Scornful and sharp, a shade quick; mocking the excuse with contempt.
+INFO_SLUMSGUARDIAN_HELLO_NOTNOW_08_06.WAV	Hard and greedy, quick; contempt on "maybe you'll learn".
+INFO_SLUMSGUARDIAN_HELLO_NOTNOW_08_07.WAV	Mildly pleased, slower; the greed satisfied for now.
+INFO_SLUMSGUARDIAN_HELLO_NOTNOW_08_08.WAV	Smug and lazy, unhurried; dry emphasis on "almost".
+INFO_SLUMSGUARDIAN_HELLO_NOTNOW_08_09.WAV	Disappointed and dismissive, unhurried; letting it go with a cool warning.
+INFO_SLUMSGUARDIAN_HELLO_OKTAKEIT_08_01.WAV	Pleased and smug, unhurried; approval with a hint of menace at the end.
+INFO_SLUMSGUARDIAN_HELLO_OKTAKEIT_08_02.WAV	Easy and patronizing, unhurried; friendly advice with a hard edge.
+INFO_SLUMSGUARDIAN_ISTHREAT_08_01.WAV	Cocky and taunting, unhurried; smug amusement, stress on "yet".
+INFO_SLUMSGUARDIAN_PAYDAY_08_00.WAV	Falsely hearty, unhurried; a collector greeting his regular mark.
+INFO_SLUMSGUARDIAN_PAYDAY_08_01.WAV	Breezy and businesslike, unhurried; stating the usual price.
+INFO_SLUMSGUARDIAN_PAYDAY_08_02.WAV	Breezy and businesslike, unhurried; stating the usual price.
+INFO_SLUMSGUARDIAN_PAYDAY_DEN_08_00.WAV	Sharp and hostile, loud and quick; calling him out.
+INFO_SLUMSGUARDIAN_PAYDAY_DEN_08_02.WAV	Menacing and hard, a shade quick; a threat right before the beating.
+INFO_SLUMSGUARDIAN_PAYDAY_PAYAGAIN_08_01.WAV	Pleased and greedy, unhurried; content with the coin.
+INFO_SLUMSGUARDIAN_PAYDAY_PAYNOMORE_08_01.WAV	Cold and slow, mock regret; the threat sitting inside the politeness.
+INFO_SLUMSGUARDIAN_PAYDAY_PAYNOMORE_08_03.WAV	Scornful and louder, a shade quick; a parting jeer.
+INFO_SLUMSGUARDIAN_SQ505_LITTLEHELP_08_02.WAV	Quick agreement turning resentful, unhurried; an old grudge in the second half.
+INFO_SLUMSGUARDIAN_SQ505_LITTLEHELP_08_03.WAV	Sly and calculating, slower; angling for a big price.
+INFO_SLUMSGUARDIAN_SQ505_LITTLEHELP_HOWMUCH_08_02.WAV	Low and businesslike, slow; a deliberate pause before naming the price.
+INFO_SLUMSGUARDIAN_SQ505_PAY_GOLD_08_02.WAV	Low and assured, unhurried; a quiet businesslike promise with a dark undertone.
+INFO_SLUMSGUARDIAN_SQ505_PAY_IHELPED_08_02.WAV	Grudging but magnanimous, unhurried; conceding the discount with a show of generosity.
+INFO_SLUMSGUARDIAN_SQ505_PAY_TOOMUCH_08_02.WAV	Flat and firm, unhurried; no room left for haggling.
+INFO_SLUMSGUARDIAN_SQ505_VOLKERGUARDSGONE_08_01.WAV	Low and curt, a shade brisk; waving him off before anyone notices.
+INFO_SLUMSGUARDIAN_V2_CHANGEMYMIND_08_01.WAV	Smug and scolding, unhurried; satisfied to have gotten his way at last.
+INFO_SLUMSGUARDIAN_V2_CHANGEMYMIND_08_02.WAV	Smug and easy, slow; laying out the terms with quiet menace underneath.
+INFO_SLUMSGUARDIAN_V2_CHANGEMYMIND_08_04.WAV	Curt and dismissive, a shade sharper; sending him off to fetch the money.
+INFO_SLUMSGUARDIAN_V2_EXIT_08_01.WAV	Cocky and mocking, unhurried; a sarcastic farewell with a veiled threat beneath.
+INFO_SLUMSGUARDIAN_V2_EXIT_08_02.WAV	Smug and easy, unhurried; a racketeer's hollow promise of safety.
+INFO_SLUMSGUARDIAN_V2_FORGETIT_08_01.WAV	Starts cool and dismissive, unhurried; hardens into a plain threat on the second sentence.
+INFO_SLUMSGUARDIAN_V2_HELLO_08_00.WAV	Cocky and probing, unhurried; a street thug sizing up a stranger.
+INFO_SLUMSGUARDIAN_V2_HELLO_08_01.WAV	Falsely friendly, unhurried; a knowing warning, weight on "trouble".
+INFO_SLUMSGUARDIAN_V2_HELLO_08_02.WAV	Same false friendliness, unhurried; painting the danger with a certain relish.
+INFO_SLUMSGUARDIAN_V2_HELLO_08_03.WAV	Lower and confiding, unhurried; the offer sliding into a smooth, sly pitch.
+INFO_SLUMSGUARDIAN_V2_HELLO_HOWMUCH_08_02.WAV	Breezy and smug, unhurried; naming the price as if it were nothing.
+INFO_SLUMSGUARDIAN_V2_HELLO_HOWMUCH_08_03.WAV	Breezy and smug, unhurried; naming the price as if it were nothing.
+INFO_SLUMSGUARDIAN_V2_HELLO_NOTNOW_08_01.WAV	Unimpressed and greedy, unhurried; brushing the excuse aside with cold amusement.
+INFO_SLUMSGUARDIAN_V2_HELLO_NOTNOW_08_03.WAV	Sudden anger, sharp and quick; he has caught the lie.
+INFO_SLUMSGUARDIAN_V2_HELLO_NOTNOW_08_04.WAV	Hard and threatening, a shade quick; the menace building on "crack in the head".
+INFO_SLUMSGUARDIAN_V2_HELLO_NOTNOW_08_05.WAV	Scornful and sharp, a shade quick; mocking the excuse with contempt.
+INFO_SLUMSGUARDIAN_V2_HELLO_NOTNOW_08_06.WAV	Hard and greedy, quick; contempt on "maybe you'll learn".
+INFO_SLUMSGUARDIAN_V2_HELLO_NOTNOW_08_07.WAV	Mildly pleased, slower; the greed satisfied for now.
+INFO_SLUMSGUARDIAN_V2_HELLO_NOTNOW_08_08.WAV	Smug and lazy, unhurried; dry emphasis on "almost".
+INFO_SLUMSGUARDIAN_V2_HELLO_NOTNOW_08_09.WAV	Disappointed and dismissive, unhurried; letting it go with a cool warning.
+INFO_SLUMSGUARDIAN_V2_HELLO_OKTAKEIT_08_01.WAV	Pleased and smug, unhurried; approval with a hint of menace at the end.
+INFO_SLUMSGUARDIAN_V2_HELLO_OKTAKEIT_08_02.WAV	Easy and patronizing, unhurried; friendly advice with a hard edge.
+INFO_SLUMSGUARDIAN_V2_ISTHREAT_08_01.WAV	Cocky and taunting, unhurried; smug amusement, stress on "yet".
+INFO_SLUMSGUARDIAN_V2_PAYDAY_08_00.WAV	Falsely hearty, unhurried; a collector greeting his regular mark.
+INFO_SLUMSGUARDIAN_V2_PAYDAY_08_01.WAV	Breezy and businesslike, unhurried; stating the usual price.
+INFO_SLUMSGUARDIAN_V2_PAYDAY_08_02.WAV	Breezy and businesslike, unhurried; stating the usual price.
+INFO_SLUMSGUARDIAN_V2_PAYDAY_DEN_08_00.WAV	Sharp and hostile, loud and quick; calling him out.
+INFO_SLUMSGUARDIAN_V2_PAYDAY_DEN_08_02.WAV	Menacing and hard, a shade quick; a threat right before the beating.
+INFO_SLUMSGUARDIAN_V2_PAYDAY_PAYAGAIN_08_01.WAV	Pleased and greedy, unhurried; content with the coin.
+INFO_SLUMSGUARDIAN_V2_PAYDAY_PAYNOMORE_08_01.WAV	Cold and slow, mock regret; the threat sitting inside the politeness.
+INFO_SLUMSGUARDIAN_V2_PAYDAY_PAYNOMORE_08_03.WAV	Scornful and louder, a shade quick; a parting jeer.
+INFO_SLUMSGUARDIAN_V2_SQ505_LITTLEHELP_08_02.WAV	Quick agreement turning resentful, unhurried; an old grudge in the second half.
+INFO_SLUMSGUARDIAN_V2_SQ505_LITTLEHELP_08_03.WAV	Sly and calculating, slower; angling for a big price.
+INFO_SLUMSGUARDIAN_V2_SQ505_LITTLEHELP_HOWMUCH_08_02.WAV	Low and businesslike, slow; a deliberate pause before naming the price.
+INFO_SLUMSGUARDIAN_V2_SQ505_PAY_GOLD_08_02.WAV	Low and assured, unhurried; a quiet businesslike promise with a dark undertone.
+INFO_SLUMSGUARDIAN_V2_SQ505_PAY_IHELPED_08_02.WAV	Grudging but magnanimous, unhurried; conceding the discount with a show of generosity.
+INFO_SLUMSGUARDIAN_V2_SQ505_PAY_TOOMUCH_08_02.WAV	Flat and firm, unhurried; no room left for haggling.
+INFO_SLUMSGUARDIAN_V2_SQ505_VOLKERGUARDSGONE_08_01.WAV	Low and curt, a shade brisk; waving him off before anyone notices.
+INFO_SLUMSGUARDIAN_V3_CHANGEMYMIND_08_01.WAV	Smug and scolding, unhurried; satisfied to have gotten his way at last.
+INFO_SLUMSGUARDIAN_V3_CHANGEMYMIND_08_02.WAV	Smug and easy, slow; laying out the terms with quiet menace underneath.
+INFO_SLUMSGUARDIAN_V3_CHANGEMYMIND_08_04.WAV	Curt and dismissive, a shade sharper; sending him off to fetch the money.
+INFO_SLUMSGUARDIAN_V3_EXIT_08_01.WAV	Cocky and mocking, unhurried; a sarcastic farewell with a veiled threat beneath.
+INFO_SLUMSGUARDIAN_V3_EXIT_08_02.WAV	Smug and easy, unhurried; a racketeer's hollow promise of safety.
+INFO_SLUMSGUARDIAN_V3_FORGETIT_08_01.WAV	Starts cool and dismissive, unhurried; hardens into a plain threat on the second sentence.
+INFO_SLUMSGUARDIAN_V3_HELLO_08_00.WAV	Cocky and probing, unhurried; a street thug sizing up a stranger.
+INFO_SLUMSGUARDIAN_V3_HELLO_08_01.WAV	Falsely friendly, unhurried; a knowing warning, weight on "trouble".
+INFO_SLUMSGUARDIAN_V3_HELLO_08_02.WAV	Same false friendliness, unhurried; painting the danger with a certain relish.
+INFO_SLUMSGUARDIAN_V3_HELLO_08_03.WAV	Lower and confiding, unhurried; the offer sliding into a smooth, sly pitch.
+INFO_SLUMSGUARDIAN_V3_HELLO_HOWMUCH_08_02.WAV	Breezy and smug, unhurried; naming the price as if it were nothing.
+INFO_SLUMSGUARDIAN_V3_HELLO_HOWMUCH_08_03.WAV	Breezy and smug, unhurried; naming the price as if it were nothing.
+INFO_SLUMSGUARDIAN_V3_HELLO_NOTNOW_08_01.WAV	Unimpressed and greedy, unhurried; brushing the excuse aside with cold amusement.
+INFO_SLUMSGUARDIAN_V3_HELLO_NOTNOW_08_03.WAV	Sudden anger, sharp and quick; he has caught the lie.
+INFO_SLUMSGUARDIAN_V3_HELLO_NOTNOW_08_04.WAV	Hard and threatening, a shade quick; the menace building on "crack in the head".
+INFO_SLUMSGUARDIAN_V3_HELLO_NOTNOW_08_05.WAV	Scornful and sharp, a shade quick; mocking the excuse with contempt.
+INFO_SLUMSGUARDIAN_V3_HELLO_NOTNOW_08_06.WAV	Hard and greedy, quick; contempt on "maybe you'll learn".
+INFO_SLUMSGUARDIAN_V3_HELLO_NOTNOW_08_07.WAV	Mildly pleased, slower; the greed satisfied for now.
+INFO_SLUMSGUARDIAN_V3_HELLO_NOTNOW_08_08.WAV	Smug and lazy, unhurried; dry emphasis on "almost".
+INFO_SLUMSGUARDIAN_V3_HELLO_NOTNOW_08_09.WAV	Disappointed and dismissive, unhurried; letting it go with a cool warning.
+INFO_SLUMSGUARDIAN_V3_HELLO_OKTAKEIT_08_01.WAV	Pleased and smug, unhurried; approval with a hint of menace at the end.
+INFO_SLUMSGUARDIAN_V3_HELLO_OKTAKEIT_08_02.WAV	Easy and patronizing, unhurried; friendly advice with a hard edge.
+INFO_SLUMSGUARDIAN_V3_ISTHREAT_08_01.WAV	Cocky and taunting, unhurried; smug amusement, stress on "yet".
+INFO_SLUMSGUARDIAN_V3_PAYDAY_08_00.WAV	Falsely hearty, unhurried; a collector greeting his regular mark.
+INFO_SLUMSGUARDIAN_V3_PAYDAY_08_01.WAV	Breezy and businesslike, unhurried; stating the usual price.
+INFO_SLUMSGUARDIAN_V3_PAYDAY_08_02.WAV	Breezy and businesslike, unhurried; stating the usual price.
+INFO_SLUMSGUARDIAN_V3_PAYDAY_DEN_08_00.WAV	Sharp and hostile, loud and quick; calling him out.
+INFO_SLUMSGUARDIAN_V3_PAYDAY_DEN_08_02.WAV	Menacing and hard, a shade quick; a threat right before the beating.
+INFO_SLUMSGUARDIAN_V3_PAYDAY_PAYAGAIN_08_01.WAV	Pleased and greedy, unhurried; content with the coin.
+INFO_SLUMSGUARDIAN_V3_PAYDAY_PAYNOMORE_08_01.WAV	Cold and slow, mock regret; the threat sitting inside the politeness.
+INFO_SLUMSGUARDIAN_V3_PAYDAY_PAYNOMORE_08_03.WAV	Scornful and louder, a shade quick; a parting jeer.
+INFO_SLUMSGUARDIAN_V3_SQ505_LITTLEHELP_08_02.WAV	Quick agreement turning resentful, unhurried; an old grudge in the second half.
+INFO_SLUMSGUARDIAN_V3_SQ505_LITTLEHELP_08_03.WAV	Sly and calculating, slower; angling for a big price.
+INFO_SLUMSGUARDIAN_V3_SQ505_LITTLEHELP_HOWMUCH_08_02.WAV	Low and businesslike, slow; a deliberate pause before naming the price.
+INFO_SLUMSGUARDIAN_V3_SQ505_PAY_GOLD_08_02.WAV	Low and assured, unhurried; a quiet businesslike promise with a dark undertone.
+INFO_SLUMSGUARDIAN_V3_SQ505_PAY_IHELPED_08_02.WAV	Grudging but magnanimous, unhurried; conceding the discount with a show of generosity.
+INFO_SLUMSGUARDIAN_V3_SQ505_PAY_TOOMUCH_08_02.WAV	Flat and firm, unhurried; no room left for haggling.
+INFO_SLUMSGUARDIAN_V3_SQ505_VOLKERGUARDSGONE_08_01.WAV	Low and curt, a shade brisk; waving him off before anyone notices.
+INFO_SLUMSGUARDIAN_V4_CHANGEMYMIND_08_01.WAV	Smug and scolding, unhurried; satisfied to have gotten his way at last.
+INFO_SLUMSGUARDIAN_V4_CHANGEMYMIND_08_02.WAV	Smug and easy, slow; laying out the terms with quiet menace underneath.
+INFO_SLUMSGUARDIAN_V4_CHANGEMYMIND_08_04.WAV	Curt and dismissive, a shade sharper; sending him off to fetch the money.
+INFO_SLUMSGUARDIAN_V4_EXIT_08_01.WAV	Cocky and mocking, unhurried; a sarcastic farewell with a veiled threat beneath.
+INFO_SLUMSGUARDIAN_V4_EXIT_08_02.WAV	Smug and easy, unhurried; a racketeer's hollow promise of safety.
+INFO_SLUMSGUARDIAN_V4_FORGETIT_08_01.WAV	Starts cool and dismissive, unhurried; hardens into a plain threat on the second sentence.
+INFO_SLUMSGUARDIAN_V4_HELLO_08_00.WAV	Cocky and probing, unhurried; a street thug sizing up a stranger.
+INFO_SLUMSGUARDIAN_V4_HELLO_08_01.WAV	Falsely friendly, unhurried; a knowing warning, weight on "trouble".
+INFO_SLUMSGUARDIAN_V4_HELLO_08_02.WAV	Same false friendliness, unhurried; painting the danger with a certain relish.
+INFO_SLUMSGUARDIAN_V4_HELLO_08_03.WAV	Lower and confiding, unhurried; the offer sliding into a smooth, sly pitch.
+INFO_SLUMSGUARDIAN_V4_HELLO_HOWMUCH_08_02.WAV	Breezy and smug, unhurried; naming the price as if it were nothing.
+INFO_SLUMSGUARDIAN_V4_HELLO_HOWMUCH_08_03.WAV	Breezy and smug, unhurried; naming the price as if it were nothing.
+INFO_SLUMSGUARDIAN_V4_HELLO_NOTNOW_08_01.WAV	Unimpressed and greedy, unhurried; brushing the excuse aside with cold amusement.
+INFO_SLUMSGUARDIAN_V4_HELLO_NOTNOW_08_03.WAV	Sudden anger, sharp and quick; he has caught the lie.
+INFO_SLUMSGUARDIAN_V4_HELLO_NOTNOW_08_04.WAV	Hard and threatening, a shade quick; the menace building on "crack in the head".
+INFO_SLUMSGUARDIAN_V4_HELLO_NOTNOW_08_05.WAV	Scornful and sharp, a shade quick; mocking the excuse with contempt.
+INFO_SLUMSGUARDIAN_V4_HELLO_NOTNOW_08_06.WAV	Hard and greedy, quick; contempt on "maybe you'll learn".
+INFO_SLUMSGUARDIAN_V4_HELLO_NOTNOW_08_07.WAV	Mildly pleased, slower; the greed satisfied for now.
+INFO_SLUMSGUARDIAN_V4_HELLO_NOTNOW_08_08.WAV	Smug and lazy, unhurried; dry emphasis on "almost".
+INFO_SLUMSGUARDIAN_V4_HELLO_NOTNOW_08_09.WAV	Disappointed and dismissive, unhurried; letting it go with a cool warning.
+INFO_SLUMSGUARDIAN_V4_HELLO_OKTAKEIT_08_01.WAV	Pleased and smug, unhurried; approval with a hint of menace at the end.
+INFO_SLUMSGUARDIAN_V4_HELLO_OKTAKEIT_08_02.WAV	Easy and patronizing, unhurried; friendly advice with a hard edge.
+INFO_SLUMSGUARDIAN_V4_ISTHREAT_08_01.WAV	Cocky and taunting, unhurried; smug amusement, stress on "yet".
+INFO_SLUMSGUARDIAN_V4_PAYDAY_08_00.WAV	Falsely hearty, unhurried; a collector greeting his regular mark.
+INFO_SLUMSGUARDIAN_V4_PAYDAY_08_01.WAV	Breezy and businesslike, unhurried; stating the usual price.
+INFO_SLUMSGUARDIAN_V4_PAYDAY_08_02.WAV	Breezy and businesslike, unhurried; stating the usual price.
+INFO_SLUMSGUARDIAN_V4_PAYDAY_DEN_08_00.WAV	Sharp and hostile, loud and quick; calling him out.
+INFO_SLUMSGUARDIAN_V4_PAYDAY_DEN_08_02.WAV	Menacing and hard, a shade quick; a threat right before the beating.
+INFO_SLUMSGUARDIAN_V4_PAYDAY_PAYAGAIN_08_01.WAV	Pleased and greedy, unhurried; content with the coin.
+INFO_SLUMSGUARDIAN_V4_PAYDAY_PAYNOMORE_08_01.WAV	Cold and slow, mock regret; the threat sitting inside the politeness.
+INFO_SLUMSGUARDIAN_V4_PAYDAY_PAYNOMORE_08_03.WAV	Scornful and louder, a shade quick; a parting jeer.
+INFO_SLUMSGUARDIAN_V4_SQ505_LITTLEHELP_08_02.WAV	Quick agreement turning resentful, unhurried; an old grudge in the second half.
+INFO_SLUMSGUARDIAN_V4_SQ505_LITTLEHELP_08_03.WAV	Sly and calculating, slower; angling for a big price.
+INFO_SLUMSGUARDIAN_V4_SQ505_LITTLEHELP_HOWMUCH_08_02.WAV	Low and businesslike, slow; a deliberate pause before naming the price.
+INFO_SLUMSGUARDIAN_V4_SQ505_PAY_GOLD_08_02.WAV	Low and assured, unhurried; a quiet businesslike promise with a dark undertone.
+INFO_SLUMSGUARDIAN_V4_SQ505_PAY_IHELPED_08_02.WAV	Grudging but magnanimous, unhurried; conceding the discount with a show of generosity.
+INFO_SLUMSGUARDIAN_V4_SQ505_PAY_TOOMUCH_08_02.WAV	Flat and firm, unhurried; no room left for haggling.
+INFO_SLUMSGUARDIAN_V4_SQ505_VOLKERGUARDSGONE_08_01.WAV	Low and curt, a shade brisk; waving him off before anyone notices.
+NONE_13330_TRADER_AFTEREVENT_03_01.WAV	Shaken and angry, a shade quick; bitter grief right after the fight.
+NONE_13330_TRADER_AFTEREVENT_03_02.WAV	Quieter, the anger easing into grateful relief; unhurried.
+NONE_13330_TRADER_AFTEREVENT_03_04.WAV	Gentle and consoling, slow; easing the regret he just heard.
+NONE_13330_TRADER_AFTEREVENT_03_05.WAV	Brightening with grim satisfaction, a shade quicker; a small rally of pride.
+NONE_13330_TRADER_AFTEREVENT_03_06.WAV	Settling back, grateful and plain, unhurried.
+NONE_13330_TRADER_AFTEREVENT_03_08.WAV	Warm and earnest, unhurried; pressing a reward on him with gratitude.
+NONE_13330_TRADER_AFTEREVENT_03_09.WAV	Distracted and apologetic, slower; still weighed down by the loss.
+NONE_13330_TRADER_AFTEREVENT_03_10.WAV	Rallying, a shade quicker; brisk and willing, keen to get it done.
+NONE_13330_TRADER_BADENDING_03_01.WAV	Terrified and pleading, a shade quick, voice shaking; begging to be spared.
